@@ -1,0 +1,22 @@
+{
+    "asi": false,
+    "strict": false,
+    "expr": true,
+    "loopfunc": true,
+    "curly": false,
+    "evil": true,
+    "white": true,
+    "undef": true,
+    "browser": false,
+    "node": false,
+    "trailing": true,
+    "indent": 4,
+    "eqeqeq": true,
+    "predef": [
+        "module",
+        "describe",
+        "it",
+        "require",
+        "process"
+    ]
+}
