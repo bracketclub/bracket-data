@@ -1,7 +1,7 @@
 {
   "name": "bracket-data",
   "description": "Get some helpful data for an NCAA tournament bracket.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "ncaa",
     "bracket",
