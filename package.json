@@ -2,34 +2,34 @@
   "name": "bracket-data",
   "description": "Get some helpful data for an NCAA tournament bracket.",
   "version": "1.0.1",
-  "keywords": [
-    "ncaa",
-    "bracket",
-    "tweetyourbracket"
-  ],
-  "bugs": {
-    "url": "http://github.com/tweetyourbracket/bracket-data/issues"
-  },
-  "license": "MIT",
   "author": {
     "name": "Luke Karrys",
     "email": "luke@lukekarrys.com",
     "url": "http://lukekarrys.com"
   },
-  "main": "index.js",
-  "homepage": "http://github.com/tweetyourbracket/bracket-data",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/tweetyourbracket/bracket-data.git"
+  "bugs": {
+    "url": "http://github.com/tweetyourbracket/bracket-data/issues"
   },
   "dependencies": {
     "lodash-node": "~2.4.1"
   },
-  "scripts": {
-    "test": "BRACKET_YEAR=2013 ./node_modules/.bin/mocha -c -u bdd -R spec --timeout 10000 test/*.js"
-  },
   "devDependencies": {
     "assert": "~1.1.0",
     "mocha": "~1.17.1"
+  },
+  "homepage": "http://github.com/tweetyourbracket/bracket-data",
+  "keywords": [
+    "ncaa",
+    "bracket",
+    "tweetyourbracket"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/tweetyourbracket/bracket-data.git"
+  },
+  "scripts": {
+    "test": "BRACKET_YEAR=2013 ./node_modules/.bin/mocha -c -u bdd -R spec --timeout 10000 test/*.js"
   }
 }
