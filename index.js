@@ -9,6 +9,7 @@ var methods = {
     _defaults = require('lodash-node/modern/objects/defaults'),
     _each = require('lodash-node/modern/collections/forEach'),
     _omit = require('lodash-node/modern/objects/omit'),
+    _extend = require('lodash-node/modern/objects/assign'),
     _keys = require('lodash-node/modern/objects/keys');
 
 
@@ -19,5 +20,12 @@ function Bracket(options, defaults) {
     }, this);
     _defaults(this, _omit(options, _keys(methods)), defaults || {});
 }
+
+
+Bracket.prototype.reset = function (options) {
+    _extend(this, options);
+    return this;
+};
+
 
 module.exports = Bracket;
