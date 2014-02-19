@@ -1,0 +1,25 @@
+{
+    "regions": [{
+        "id": "E",
+        "name": "East",
+        "fullname": "East Region"
+    },{
+        "id": "MW",
+        "name": "Midwest",
+        "fullname": "Midwest Region"
+    },{
+        "id": "W",
+        "name": "West",
+        "fullname": "West Region"
+    },{
+        "id": "NE",
+        "name": "Northeast",
+        "fullname": "Northeast Region"
+    }],
+    "teams": {
+        "E": ["Quinnipiac","Boston College","Union","Canisius"],
+        "MW": ["Notre Dame","Miami (OH)","Minnesota State","St. Cloud State"],
+        "W": ["Minnesota","North Dakota","Niagara","Yale"],
+        "NE": ["UMass Lowell","New Hampshire","Denver","Wisconsin"]
+    }
+}

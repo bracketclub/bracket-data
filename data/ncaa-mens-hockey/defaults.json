@@ -1,0 +1,11 @@
+{
+    "scoring": {
+        "standard": [10, 20, 40, 80]
+    },
+    "order": [1, 4, 2, 3],
+    "finalData": {
+        "FF": {
+            "name": "Frozen Four"
+        }
+    }
+}
