@@ -35,29 +35,6 @@ describe('Bracket Data', function () {
         assert.strictEqual(false, b.hasOwnProperty('sport'));
     });
 
-    it('should set default properties on instance', function () {
-        var b = new BracketData({
-            year: '2013',
-            defaults: {
-                flatBracket: 1
-            }
-        });
-
-        assert.strictEqual(true, b.hasOwnProperty('flatBracket'));
-        assert.strictEqual(1, b.flatBracket);
-    });
-
-    it('should throw an error if a default property will overwrite data', function () {
-        assert.throws(function () {
-            new BracketData({
-                year: '2013',
-                defaults: {
-                    bracket: 1
-                }
-            });
-        }, Error);
-    });
-
     it('should throw an error if year+sport is non-existant', function () {
         assert.throws(function () {
             new BracketData({
