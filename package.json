@@ -15,7 +15,10 @@
   },
   "devDependencies": {
     "mocha": "~1.17.1",
-    "precommit-hook": "~0.3.10"
+    "precommit-hook": "~0.3.10",
+    "walkdir": "0.0.7",
+    "browserify": "~3.30.1",
+    "through": "~2.3.4"
   },
   "homepage": "http://github.com/tweetyourbracket/bracket-data",
   "keywords": [
@@ -30,6 +33,15 @@
     "url": "http://github.com/tweetyourbracket/bracket-data.git"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha -c -u bdd -R spec --timeout 10000 test/*.js"
+    "test": "./node_modules/.bin/mocha -c -u bdd -R spec test/node/*.js"
+  },
+  "testling": {
+    "harness": "mocha-bdd",
+    "files": "test/browser/*.js",
+    "browsers": [
+      "ie/8..latest",
+      "chrome/latest",
+      "firefox/latest"
+    ]
   }
 }
