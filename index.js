@@ -1,6 +1,5 @@
 var _defaults = require('lodash-node/modern/objects/defaults');
 var _each = require('lodash-node/modern/collections/forEach');
-var _omit = require('lodash-node/modern/objects/omit');
 var data = require('./data/index');
 var methods = {
     bracket: require('./lib/bracket'),
@@ -21,18 +20,14 @@ function Bracket(options) {
     _defaults(options, {
         props: ['bracket'],
         year: new Date().getFullYear(),
-        sport: 'ncaa-mens-basketball',
-        defaults: {}
+        sport: 'ncaa-mens-basketball'
     });
 
     var bracketData = data(options.sport, options.year);
 
     _each(options.props, function (prop) {
-        if (options.defaults.hasOwnProperty(prop)) throw new Error('Cant set default for an existing property');
         this[prop] = typeof methods[prop] === 'function' && methods[prop](bracketData);
     }, this);
-
-    _defaults(this, _omit(options, ['props', 'year', 'sport'].concat(options.props)), options.defaults || {});
 }
 
 module.exports = Bracket;
