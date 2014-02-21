@@ -1,5 +1,6 @@
 var _defaults = require('lodash-node/modern/objects/defaults');
 var _each = require('lodash-node/modern/collections/forEach');
+var _keys = require('lodash-node/modern/objects/keys');
 var data = require('./data/index');
 var methods = {
     bracket: require('./lib/bracket'),
@@ -19,11 +20,15 @@ var methods = {
 function Bracket(options) {
     _defaults(options, {
         props: ['bracket'],
-        year: new Date().getFullYear(),
-        sport: 'ncaa-mens-basketball'
+        year: '',
+        sport: ''
     });
 
     var bracketData = data(options.sport, options.year);
+
+    if (options.props === 'all' || options.props[0] === 'all') {
+        options.props = _keys(methods);
+    }
 
     _each(options.props, function (prop) {
         this[prop] = typeof methods[prop] === 'function' && methods[prop](bracketData);

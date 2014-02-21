@@ -1,10 +1,13 @@
 var BracketData = require('../../built/ncaa-mens-basketball-2013.js');
 var assert = require('assert');
+var year = '2013';
+var sport = 'ncaa-mens-basketball';
 
 describe('Bracket Data', function () {
     it('should create a bracket with only the default property: bracket', function () {
         var b = new BracketData({
-            year: '2013'
+            year: year,
+            sport: sport
         });
 
         assert.strictEqual(true, b.hasOwnProperty('bracket'));
@@ -12,7 +15,8 @@ describe('Bracket Data', function () {
 
     it('should create a bracket with the specifed properties', function () {
         var b = new BracketData({
-            year: '2013',
+            year: year,
+            sport: sport,
             props: 'bracket constants regex order scoring locks'.split(' ')
         });
 
@@ -26,8 +30,9 @@ describe('Bracket Data', function () {
 
     it('should not add certain properties to instance', function () {
         var b = new BracketData({
-            year: '2013',
-            props: 'bracket constants regex order scoring locks'.split(' ')
+            year: year,
+            sport: sport,
+            props: 'all'
         });
 
         assert.strictEqual(false, b.hasOwnProperty('props'));
