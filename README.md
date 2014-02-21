@@ -94,13 +94,13 @@ MW18124637211232121W19121361410291362929S185411371514315434E1912463721432434FFMW
 }
 ```
 
-- `order`: an array with the first round team order. This s useful for display purposes as it is ordered how the teams should be paired from top-to-bottom for each region to start the bracket:
+- `order`: an array with the first round team order. This is useful for display purposes as it is ordered how the teams should be paired from top-to-bottom for each region to start the bracket:
 
 ```js
 [1, 16, 8, 9, 5, 12, 4, 13, 6, 11, 3, 14, 7, 10, 2, 15]
 ```
 
-- `scoring`: any data from the json files about how to possible score a bracket. There is not set format for the scoring data, and due to this fact scoring systems will vary quite a bit from sport to sport and year to year. You could come up with your own scoring system and include it, and then write your own module to score each bracket. It could be as simple as
+- `scoring`: any data from the json files about how to possibly score a bracket. There is no set format for the scoring data, and due to this fact, scoring data will vary quite a bit from sport to sport and year to year. You could even come up with your own scoring system, PR it, and then write your own module to score each bracket. It could be as simple as
 
 ```js
 {
@@ -132,22 +132,22 @@ or even as complex as the [gooley scoring method](http://seattletimes.com/html/l
 Probably not, but it's only a pull request away! All the data lives in JSON files under the `./data` dir. To add a sport/year combination:
 
 1. Add a directory with the name of the sport (if it doesn't already exist)
-2. Add a `defaults.json` file for that sport (if it doesn't already exist)
+2. Add/edit a `defaults.json` file inside that sport's directory (if it doesn't already exist)
 3. Add a file `YYYY.json` inside that sport's directory
 
-Right now the required properties are:
+Right now the **required** properties are:
 
 - `regions`: an array of objects each with the properties `id`, `name`, and `fullname`. These are order dependent and the regions that play each other to get to the `finalRegion` should be at indexes `0,1` and `2,3` (in a 4 region bracket).
 - `teams`: an object where the keys are the `id`s from `regions` and the properties are arrays of team names in seed order
 - `finalRegion`: an object with a `name` and `id` property for the final region (could be Final Four, NBA Finals, etc)
-- `order`: an array of the orders in which seed would play each other in the first round
+- `order`: an array of the seeds ordered by who would play each other in the first round
 
-And the following properties are options:
+And the following properties are **optional**:
 
 - `scoring`: an object with properties that could be used to score the bracket
 - `locks`: a date string representing when the bracket "locks" aka when picks should no longer be allowed because the games have started
 
-These properties are merged recursively (using `[lodash's merge](http://lodash.com/docs#merge)`) with the properties from `defaults.json` being overwritten by the properties from `YYYY.json`. This allows for things to don't change often (such as the `order`) to only be written in one place, whereas things such as `teams` which change every year to be located in the appropriate file.
+These properties are merged recursively (using [`lodash's merge`](http://lodash.com/docs#merge)) with the properties from `defaults.json` being overwritten by the properties from `YYYY.json`. This allows for things that don't change often (such as the `order`) to only be written in one place, whereas things such as `teams` (which change every year) to be located in the appropriate file.
 
 *Also see the above section for further explanation about these properites or go look at a complete example: [defaults.json](https://github.com/tweetyourbracket/bracket-data/blob/master/data/ncaa-mens-basketball/defaults.json), [YYYY.json](https://github.com/tweetyourbracket/bracket-data/blob/master/data/ncaa-mens-basketball/2013.json).*
 
@@ -210,7 +210,7 @@ console.log(bracketData.regex.test(bracketData.constants.EMPTY));
 
 ## Contributing
 
-Feel free to open any pull requests or issues. This is the basis of [tweetyourbracket.com](tweetyourbracket.com), but outside of that, I don't think it has gotten a lot of use. If there is a way to make this better, I am eager to hear it.
+Feel free to open any pull requests or issues. This is the basis of [tweetyourbracket.com](http://tweetyourbracket.com), but outside of that, I don't think it has gotten a lot of use. If there is a way to make this better, I am eager to hear it.
 
 ## Anything else?
 
