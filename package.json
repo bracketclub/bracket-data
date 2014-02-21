@@ -14,10 +14,8 @@
     "lodash-node": "~2.4.1"
   },
   "devDependencies": {
-    "browserify": "~3.30.1",
     "mocha": "~1.17.1",
     "precommit-hook": "~0.3.10",
-    "through": "~2.3.4",
     "walkdir": "0.0.7"
   },
   "homepage": "http://github.com/tweetyourbracket/bracket-data",
