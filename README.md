@@ -168,7 +168,7 @@ To use this module in Node, just require it like an other module and follow the 
 var BracketData = require('bracket-data');
 ```
 
-To use it in a browser, I recommend using [browserify](http://browserify.org/), but there are a few caveats. If you are using this in the browser, you probably don't want to include the data for every year and sport. There are pre-built files for each sport/year combination located at `./built/SPORT-YYYY.js` that exist for this purpose. It isn't necessary to use these in node, where we can do dynamic requires, but browserify can't parse those. So to use the `2013` data from the `ncaa-mens-basketball` tournament, you can do:
+To use it in a browser, I recommend using [browserify](http://browserify.org/), but there are a few options. If you are using this in the browser, you probably don't want to include the data for every year and sport. There are pre-built files for each sport/year combination located at `./built/SPORT-YYYY.js` that exist for this purpose. It isn't necessary to use these in node, where we can do dynamic requires and where disk space is cheap, but browserify can't parse those and you might not want to send data you'll never use over the wire. So to use the `2013` data from the `ncaa-mens-basketball` tournament, you can do:
 
 ```js
 var BracketData = require('bracket-data/built/ncaa-mens-basketball-2013');

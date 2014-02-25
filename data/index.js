@@ -1,21 +1,21 @@
 var _merge = require('lodash-node/modern/objects/merge');
-var fs = require('fs');
-var path = require('path');
-
+var data = {
+    'ncaa-mens-basketball': {
+        '2012': require('./ncaa-mens-basketball/2012'),
+        '2013': require('./ncaa-mens-basketball/2013'),
+        'defaults': require('./ncaa-mens-basketball/defaults'),
+    },
+    'ncaa-mens-hockey': {
+        '2013': require('./ncaa-mens-hockey/2013'),
+        'defaults': require('./ncaa-mens-hockey/defaults'),
+    }
+};
 
 module.exports = function (sport, year) {
-    var sportYearPath = path.resolve(__dirname, sport, year + '.json');
-    var sportDefaultPath = path.resolve(__dirname, sport, 'defaults.json');
-    var yearData, defaultData;
+    var defaultData = data[sport] && data[sport].defaults || {};
+    var yearData = data[sport] && data[sport][year];
 
-    if (!fs.existsSync(sportDefaultPath)) {
-        defaultData = {};
-    } else {
-        defaultData = require('.' + path.sep + path.relative(__dirname, sportDefaultPath));
-    }
-
-    if (fs.existsSync(sportYearPath)) {
-        yearData = require('.' + path.sep + path.relative(__dirname, sportYearPath));
+    if (yearData) {
         return _merge(defaultData, yearData);
     } else {
         throw new Error('The combination of ' + sport + ' and ' + year + ' does not exist.');
