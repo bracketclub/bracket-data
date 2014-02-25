@@ -1,7 +1,7 @@
 {
   "name": "bracket-data",
   "description": "Get some helpful data for an NCAA tournament bracket.",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "author": {
     "name": "Luke Karrys",
     "email": "luke@lukekarrys.com",

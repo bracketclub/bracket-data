@@ -64,7 +64,7 @@ Here are the specific properties with examples from the `ncaa-mens-basketball-20
 }
 ```
 
-- `regex`: a regular expression that can be used to match [a string representation of the bracket](). These string representations of brackets make up the foundation of all the bracket modules as it is how the data is stored. Here's what the final bracket looked like as a string.
+- `regex`: a regular expression that can be used to match [a string representation of the bracket](https://gist.github.com/lukekarrys/2028007#explanation). These string representations of brackets make up the foundation of all the bracket modules as it is how the data is stored. Here's what the final bracket looked like as a string.
 
 ```
 MW18124637211232121W19121361410291362929S185411371514315434E1912463721432434FFMWSMW
