@@ -1,13 +1,13 @@
 var _merge = require('lodash-node/modern/objects/merge');
 var data = {
     'ncaa-mens-basketball': {
-        '2012': require('./ncaa-mens-basketball/2012'),
-        '2013': require('./ncaa-mens-basketball/2013'),
-        'defaults': require('./ncaa-mens-basketball/defaults'),
+        '2012': require('./ncaa-mens-basketball/2012.json'),
+        '2013': require('./ncaa-mens-basketball/2013.json'),
+        'defaults': require('./ncaa-mens-basketball/defaults.json')
     },
     'ncaa-mens-hockey': {
-        '2013': require('./ncaa-mens-hockey/2013'),
-        'defaults': require('./ncaa-mens-hockey/defaults'),
+        '2013': require('./ncaa-mens-hockey/2013.json'),
+        'defaults': require('./ncaa-mens-hockey/defaults.json')
     }
 };
 
