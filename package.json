@@ -11,12 +11,12 @@
     "url": "http://github.com/tweetyourbracket/bracket-data/issues"
   },
   "dependencies": {
-    "lodash-node": "~2.4.1"
+    "lodash-node": "~2.4.1",
+    "walkdir": "0.0.7"
   },
   "devDependencies": {
     "mocha": "~1.17.1",
-    "precommit-hook": "~0.3.10",
-    "walkdir": "0.0.7"
+    "precommit-hook": "~0.3.10"
   },
   "homepage": "http://github.com/tweetyourbracket/bracket-data",
   "keywords": [
