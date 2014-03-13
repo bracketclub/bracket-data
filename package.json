@@ -1,7 +1,7 @@
 {
   "name": "bracket-data",
   "description": "Get some helpful data for a tournament bracket.",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "author": {
     "name": "Luke Karrys",
     "email": "luke@lukekarrys.com",
@@ -31,6 +31,7 @@
     "url": "http://github.com/tweetyourbracket/bracket-data.git"
   },
   "scripts": {
+    "build": "node build",
     "test": "./node_modules/.bin/mocha -c -u bdd -R spec test/node/*.js"
   },
   "testling": {
