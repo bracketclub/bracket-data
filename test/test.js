@@ -1,4 +1,4 @@
-var BracketData = require('../../index');
+var BracketData = require('../index');
 var assert = require('assert');
 var year = '2013';
 var sport = 'ncaa-mens-basketball';

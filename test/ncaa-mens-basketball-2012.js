@@ -1,4 +1,4 @@
-var BracketData = require('../../index');
+var BracketData = require('../index');
 var assert = require('assert');
 
 describe('Bracket Data', function () {

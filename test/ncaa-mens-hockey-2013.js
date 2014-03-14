@@ -1,4 +1,4 @@
-var BracketData = require('../../built/ncaa-mens-hockey-2013.js');
+var BracketData = require('../index');
 var assert = require('assert');
 
 describe('Bracket Data', function () {

@@ -32,11 +32,11 @@
   },
   "scripts": {
     "build": "node build",
-    "test": "./node_modules/.bin/mocha -c -u bdd -R spec test/node/*.js"
+    "test": "npm run build && ./node_modules/.bin/mocha -c -u bdd -R spec test/*.js"
   },
   "testling": {
     "harness": "mocha-bdd",
-    "files": "test/browser/*.js",
+    "files": "test/*.js",
     "browsers": [
       "ie/6..latest",
       "chrome/22..latest",
