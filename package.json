@@ -14,7 +14,9 @@
     "lodash": "^3.3.1"
   },
   "devDependencies": {
+    "browserify": "^9.0.3",
     "cheerio": "^0.18.0",
+    "js-size": "^1.0.3",
     "jshint": "^2.6.0",
     "mocha": "~1.17.1",
     "precommit-hook": "^1.0.7",
@@ -35,6 +37,7 @@
   },
   "scripts": {
     "build": "node build/dataIndex",
+    "size": "browserify index | js-size",
     "test": "npm run build && ./node_modules/.bin/mocha -c -u bdd -R spec test/*.js"
   }
 }
