@@ -2,7 +2,8 @@ var walkdir = require('walkdir');
 var path = require('path');
 var _ = require('lodash');
 var fs = require('fs');
-var dataPaths = walkdir.sync('./data');
+var dataDir = path.resolve(__dirname, '../data');
+var dataPaths = walkdir.sync(dataDir);
 
 var dataFiles = _.chain(dataPaths).filter(function (dataPath) {
     return path.extname(dataPath) === '.json' && path.basename(dataPath, '.json') !== 'defaults';
@@ -28,6 +29,6 @@ replaceStr.push(sports.join(',\n'));
 replaceStr.push('};');
 replaceStr = replaceStr.join('\n');
 
-var dataIndex = fs.readFileSync('./data/index.js', {encoding: 'utf8'});
+var dataIndex = fs.readFileSync(dataDir +'/index.js', {encoding: 'utf8'});
 dataIndex = dataIndex.replace(/var data = \{[\s\S.]*(^module)/m, replaceStr + '\n\n\n$1');
-fs.writeFileSync('./data/index.js', dataIndex);
+fs.writeFileSync(dataDir + '/index.js', dataIndex);

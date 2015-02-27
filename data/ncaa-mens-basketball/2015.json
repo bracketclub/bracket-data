@@ -1,14 +1,9 @@
 {
   "regions": [
     {
-      "id": "S",
-      "name": "South",
-      "fullname": "South Region"
-    },
-    {
-      "id": "E",
-      "name": "East",
-      "fullname": "East Region"
+      "id": "MW",
+      "name": "Midwest",
+      "fullname": "Midwest Region"
     },
     {
       "id": "W",
@@ -16,83 +11,88 @@
       "fullname": "West Region"
     },
     {
-      "id": "MW",
-      "name": "Midwest",
-      "fullname": "Midwest Region"
+      "id": "E",
+      "name": "East",
+      "fullname": "East Region"
+    },
+    {
+      "id": "S",
+      "name": "South",
+      "fullname": "South Region"
     }
   ],
   "teams": {
-    "S": [
-      "Florida",
-      "Kansas",
-      "Syracuse",
-      "UCLA",
-      "VCU",
+    "MW": [
+      "Kentucky",
+      "Wisconsin",
+      "Iowa St",
+      "Notre Dame",
+      "Wichita St",
+      "Butler",
+      "Xavier",
       "Ohio St",
-      "New Mexico",
-      "Colorado",
-      "Pittsburgh",
-      "Stanford",
+      "Texas A&M",
+      "Colorado St",
+      "Oregon",
+      "Texas / Davidson",
+      "Murray St",
+      "Georgia St",
+      "Albany",
+      "Sacramento St / Texas Southern"
+    ],
+    "W": [
+      "Gonzaga",
+      "Arizona",
+      "Oklahoma",
+      "Louisville",
+      "Arkansas",
+      "SMU",
+      "Providence",
+      "Oklahoma St",
+      "NC St",
       "Dayton",
-      "Stephen F Austin",
-      "Tulsa",
-      "Western Michigan",
-      "Eastern Kentucky",
-      "Albany"
+      "Ucla / Purdue",
+      "Harvard",
+      "Stephen F. Austin",
+      "Louisiana Tech",
+      "New Mexico St",
+      "Bucknell"
     ],
     "E": [
       "Virginia",
       "Villanova",
-      "Iowa State",
-      "Michigan St",
-      "Cincinnati",
-      "North Carolina",
-      "UConn",
-      "Memphis",
-      "George Washington",
-      "Saint Joseph's",
-      "Providence",
-      "Harvard",
-      "Delaware",
-      "NC Central",
-      "Milwaukee",
-      "Coastal Carolina"
-    ],
-    "W": [
-      "Arizona",
-      "Wisconsin",
-      "Creighton",
-      "San Diego St",
-      "Oklahoma",
+      "Maryland",
       "Baylor",
-      "Oregon",
-      "Gonzaga",
-      "Oklahoma St",
-      "BYU",
-      "Nebraska",
-      "North Dakota St",
-      "New Mexico St",
-      "UL Lafayette",
-      "American",
-      "Weber St"
+      "North Carolina",
+      "Virginia Commonwealth",
+      "San Diego St",
+      "Georgia",
+      "Indiana",
+      "LSU",
+      "Temple",
+      "Iona",
+      "Valparaiso",
+      "South Dakota St",
+      "William & Mary",
+      "North Florida / St. Francis (NY)"
     ],
-    "MW": [
-      "Wichita St",
-      "Michigan",
+    "S": [
       "Duke",
-      "Louisville",
-      "Saint Louis",
-      "UMass",
-      "Texas",
-      "Kentucky",
-      "Kansas St",
-      "Arizona St",
-      "Tennessee",
-      "NC State",
-      "Manhattan",
-      "Mercer",
+      "Kansas",
+      "Utah",
+      "Northern Iowa",
+      "West Virginia",
+      "Georgetown",
+      "Michigan St",
+      "Ole Miss",
+      "Iowa",
+      "St. John's",
+      "Cincinnati",
       "Wofford",
-      "Cal Poly"
+      "Central Michigan",
+      "UC Davis",
+      "High Point",
+      "North Carolina Central"
     ]
   },
   "scoring": {
@@ -207,5 +207,5 @@
       ]
     ]
   },
-  "locks": "Thur Mar 20 16:15:00 +000 2014"
+  "locks": "Thur Mar 19 16:15:00 +000 2015"
 }
