@@ -7,8 +7,6 @@ Get some helpful data for a tournament bracket.
 
 [![Build Status](https://travis-ci.org/tweetyourbracket/bracket-data.png?branch=master)](https://travis-ci.org/tweetyourbracket/bracket-data)
 
-![Testling CI badge](https://ci.testling.com/tweetyourbracket/bracket-data.png)
-
 ## What is a bracket?
 
 From [wikipedia](http://en.wikipedia.org/wiki/Bracket_(tournament)):
