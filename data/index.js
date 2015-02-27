@@ -1,4 +1,4 @@
-var _merge = require('lodash-node/modern/objects/merge');
+var _merge = require('lodash/object/merge');
 var data = {
     "ncaa-mens-basketball": {
         "defaults": require("./ncaa-mens-basketball/defaults.json"),

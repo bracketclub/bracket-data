@@ -11,12 +11,13 @@
     "url": "http://github.com/tweetyourbracket/bracket-data/issues"
   },
   "dependencies": {
-    "lodash-node": "~2.4.1",
-    "walkdir": "0.0.7"
+    "lodash": "^3.3.1"
   },
   "devDependencies": {
+    "jshint": "^2.6.0",
     "mocha": "~1.17.1",
-    "precommit-hook": "~0.3.10"
+    "precommit-hook": "^1.0.7",
+    "walkdir": "0.0.7"
   },
   "homepage": "http://github.com/tweetyourbracket/bracket-data",
   "keywords": [
@@ -33,19 +34,5 @@
   "scripts": {
     "build": "node build",
     "test": "npm run build && ./node_modules/.bin/mocha -c -u bdd -R spec test/*.js"
-  },
-  "testling": {
-    "harness": "mocha-bdd",
-    "files": "test/*.js",
-    "browsers": [
-      "ie/6..latest",
-      "chrome/22..latest",
-      "firefox/16..latest",
-      "safari/latest",
-      "opera/11.0..latest",
-      "iphone/6",
-      "ipad/6",
-      "android-browser/latest"
-    ]
   }
 }

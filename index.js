@@ -1,6 +1,6 @@
-var _defaults = require('lodash-node/modern/objects/defaults');
-var _each = require('lodash-node/modern/collections/forEach');
-var _keys = require('lodash-node/modern/objects/keys');
+var _defaults = require('lodash/object/defaults');
+var _each = require('lodash/collection/forEach');
+var _keys = require('lodash/object/keys');
 var data = require('./data/index');
 var methods = {
     bracket: require('./lib/bracket'),

@@ -1,6 +1,6 @@
 var walkdir = require('walkdir');
 var path = require('path');
-var _ = require('lodash-node');
+var _ = require('lodash');
 var fs = require('fs');
 var dataPaths = walkdir.sync('./data');
 
