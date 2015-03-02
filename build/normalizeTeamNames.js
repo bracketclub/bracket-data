@@ -1,8 +1,22 @@
 var _ = require('lodash');
 var request = require('request');
 var cheerio = require('cheerio');
+var path = require('path');
+var fs = require('fs');
 
-var order = require('../data/ncaa-mens-basketball/defaults').order;
+var argv = require('minimist')(process.argv.slice(2), {
+    default: {
+        sport: 'ncaa-mens-basketball'
+    },
+    alias: {
+        y: 'year',
+        s: 'sport'
+    }
+});
+var sport = argv.sport;
+var year = argv.year;
+
+var order = require('../data/' + sport + '/defaults').order;
 var url = 'http://espn.go.com/ncb/bracketology';
 var regionMap = {
     'midwest': 'MW'
@@ -14,7 +28,8 @@ var specialNames = {
     'nc': 'NC',
     'lsu': 'LSU',
     'ny': 'NY',
-    'uc': 'UC'
+    'uc': 'UC',
+    'byu': 'BYU'
 };
 var replaceSpecialNames = function (name) {
     _.each(specialNames, function (newName, oldName) {
@@ -55,7 +70,15 @@ request(url, function(err, resp, body) {
         return [region.toUpperCase(), teams];
     }).object().value();
 
-    process.stdout.write(JSON.stringify(teams, null, 2));
+    if (year) {
+        var dataDir = path.resolve(__dirname, '../data/' + sport);
+        var jsonPath = dataDir + '/' + year + '.json';
+        var data = require(jsonPath);
+        data.teams = teams;
+        fs.writeFileSync(jsonPath, JSON.stringify(data, null, 2));
+    } else {
+        process.stdout.write(JSON.stringify(teams, null, 2));
+    }
 });
 
 
