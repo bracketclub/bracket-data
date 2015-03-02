@@ -1,7 +1,7 @@
 {
   "name": "bracket-data",
   "description": "Get some helpful data for a tournament bracket.",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "author": {
     "name": "Luke Karrys",
     "email": "luke@lukekarrys.com",
