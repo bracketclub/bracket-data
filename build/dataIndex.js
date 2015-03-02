@@ -19,7 +19,10 @@ _.each(dataFiles, function (files, sportName) {
     years.push('        "defaults": require("./' + sportName + '/defaults.json")');
     _.each(files, function (file) {
         var year = path.basename(file, '.json');
-        years.push('        "' + year + '": require("./' + sportName + '/' + year + '.json")');
+        var requirePath = './' + sportName + '/' + year + '.json';
+        var dataPath = path.resolve('data', requirePath);
+        fs.writeFileSync(dataPath, JSON.stringify(require(dataPath), null, 2));
+        years.push('        "' + year + '": require("' + requirePath + '")');
     });
     sport.push(years.join(',\n'));
     sport.push('    }');
