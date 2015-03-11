@@ -19,7 +19,7 @@ module.exports = function (sport, year) {
     var yearData = data[sport] && data[sport][year];
 
     if (yearData) {
-        return _merge(defaultData, yearData);
+        return _merge({}, defaultData, yearData);
     } else {
         throw new Error('The combination of ' + sport + ' and ' + year + ' does not exist.');
     }
