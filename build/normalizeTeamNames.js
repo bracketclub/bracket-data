@@ -29,7 +29,8 @@ var specialNames = {
     'lsu': 'LSU',
     'ny': 'NY',
     'uc': 'UC',
-    'byu': 'BYU'
+    'byu': 'BYU',
+    'uab': 'UAB'
 };
 var replaceSpecialNames = function (name) {
     _.each(specialNames, function (newName, oldName) {
