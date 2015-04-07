@@ -5,7 +5,8 @@ var data = {
         "2012": require("./ncaa-mens-basketball/2012.json"),
         "2013": require("./ncaa-mens-basketball/2013.json"),
         "2014": require("./ncaa-mens-basketball/2014.json"),
-        "2015": require("./ncaa-mens-basketball/2015.json")
+        "2015": require("./ncaa-mens-basketball/2015.json"),
+        "2016": require("./ncaa-mens-basketball/2016.json")
     },
     "ncaa-mens-hockey": {
         "defaults": require("./ncaa-mens-hockey/defaults.json"),
