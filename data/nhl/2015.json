@@ -1,0 +1,51 @@
+{
+  "regions": [
+    {
+      "id": "C",
+      "name": "Central",
+      "fullname": "Central Division"
+    },
+    {
+      "id": "P",
+      "name": "Pacific",
+      "fullname": "Pacific Division"
+    },
+    {
+      "id": "A",
+      "name": "Atlantic",
+      "fullname": "Atlantic Division"
+    },
+    {
+      "id": "M",
+      "name": "Metropolitan",
+      "fullname": "Metropolitan Division"
+    }
+  ],
+  "teams": {
+    "C": [
+      "St. Louis",
+      "Nashville",
+      "Chicago",
+      "Minnesota"
+    ],
+    "P": [
+      "Anaheim",
+      "Vancouver",
+      "Calgary",
+      "Winnipeg"
+    ],
+    "A": [
+      "Montreal",
+      "Detroit",
+      "Tampa Bay",
+      "Ottawa"
+    ],
+    "M": [
+      "New York (R)",
+      "Washington",
+      "New York (I)",
+      "Pittsburgh"
+    ]
+  },
+  "locks": "2015-04-15T23:00:00.000Z"
+}

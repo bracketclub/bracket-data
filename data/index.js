@@ -11,6 +11,10 @@ var data = {
     "ncaa-mens-hockey": {
         "defaults": require("./ncaa-mens-hockey/defaults.json"),
         "2013": require("./ncaa-mens-hockey/2013.json")
+    },
+    "nhl": {
+        "defaults": require("./nhl/defaults.json"),
+        "2015": require("./nhl/2015.json")
     }
 };
 
