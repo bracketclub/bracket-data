@@ -24,6 +24,7 @@ var regionMap = {
 
 var specialNames = {
     'a&m': 'A&M',
+    'a&t': 'A&T',
     'smu': 'SMU',
     'nc': 'NC',
     'lsu': 'LSU',
@@ -34,7 +35,9 @@ var specialNames = {
     'fl': 'FL',
     'ul': 'UL',
     'ucla': 'UCLA',
-    'st': 'State'
+    'st': 'State',
+    'utep': 'UTEP',
+    '-little': '-Little'
 };
 var replaceSpecialNames = function (name) {
     _.each(specialNames, function (newName, oldName) {
