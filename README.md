@@ -21,6 +21,37 @@ But if you're going to use this, you probably already know that :).
 Let's say you like writing code, and you like brackets, and then one day you want to write some code about brackets. Well, you'll probably need some data first. `bracket-data` aims to have this data for you separated by sport and year, as well as some helpers to make it easier to interact with that data.
 
 
+## API
+
+This module can be used in Node or the browser. All of the following examples are extracting the same data.
+
+In Node, you can require the module as normally would:
+
+```js
+// Node usage
+var ncaam2013 = require('bracket-data')({
+    year: '2013',
+    sport: 'ncaa-mens-basketball'
+});
+```
+
+In a browser, the files are provided prebuilt so that you don't include the whole bundle.
+
+```js
+// For usage in a browser without bundling data for any other sport/year
+var ncaam2013 = require('bracket-data/browser/ncaa-mens-basketball-2013');
+```
+
+If you don't care about including all the data for every sport/year, then you can still require it normally:
+
+```js
+// Browser usage, although this bundles data for every sport/year
+var ncaam2013 = require('bracket-data')({
+    year: '2013',
+    sport: 'ncaa-mens-basketball'
+});
+```
+
 ## What data does this module give me?
 
 Hopefully enough to display an interactive bracket. There are many other modules for doing things like explicity [validating, scoring and updating a bracket](http://github.com/tweetyourbracket).
@@ -158,42 +189,10 @@ These properties are merged recursively (using [`lodash's merge`](http://lodash.
 
 Currently it only has a few, but the next priority will be adding the 2014 data very quickly after it is available.
 
-- `ncaa-mens-basketball`: `[2012, 2013]`
+- `ncaa-mens-basketball`: `[2012-2016]`
 - `ncaa-mens-hockey`: `[2013]`
+- `nhl`: `[2015]`
 
-
-## API
-
-Make a new `bracket-data` object like this (the year and sport options are required):
-
-```js
-var BracketData = require('bracket-data'); // Or use a specific year from ./built
-
-var bracketData = new BracketData({
-    year: '2013',
-    sport: 'ncaa-mens-basketball'
-});
-
-// Get the 12 seed for the Midwest Region
-console.log(bracketData.bracket.regions.MW.teams[11]);
-// Get the ID of the region that will play against the Midwest in the National Semifinal
-console.log(bracketData.bracket.regions.MW.sameSideAs);
-```
-
-By default, only the `bracket` option will be returned. To opt-in to more properties use the `props` option. Props can be an array of properties or the string `all`.
-
-```js
-var BracketData = require('bracket-data'); // Or use a specific year from ./built
-
-var bracketData = new BracketData({
-    year: '2013',
-    sport: 'ncaa-mens-basketball',
-    props: 'all' // Get all properties
-});
-
-// Test if the regex matches the default empty bracket (it better!)
-console.log(bracketData.regex.test(bracketData.constants.EMPTY));
-```
 
 ## Contributing
 
@@ -201,7 +200,7 @@ Feel free to open any pull requests or issues. This is the basis of [tweetyourbr
 
 ## Anything else?
 
-If this is interesting to you, I think you should follow me ([@lukekarrys](https://twitter.com/lukekarrys)) and [@tweetthebracket](https://twitter.com/tweetthebracket) on Twitter. There are also a lot of other bracket related modules on our [GitHub organization page](https://github.com/tweetyourbracket).
+If this is interesting to you, I think you should follow [@tweetthebracket](https://twitter.com/tweetthebracket) on Twitter. There are also a lot of other bracket related modules on our [GitHub organization page](https://github.com/tweetyourbracket).
 
 ### LICENSE
 

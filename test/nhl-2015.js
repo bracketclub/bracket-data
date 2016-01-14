@@ -1,12 +1,11 @@
-var BracketData = require('../index');
+var bracketData = require('../lib/index');
 var assert = require('assert');
 
 describe('Bracket Data', function () {
     it('should have correct data for ncaa-mens-basketball', function () {
-        var b = new BracketData({
+        var b = bracketData({
             year: '2015',
-            sport: 'nhl',
-            props: 'bracket constants regex order scoring locks'.split(' ')
+            sport: 'nhl'
         });
 
         assert.strictEqual(b.constants.REGION_COUNT, 4);

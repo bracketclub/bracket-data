@@ -1,23 +1,30 @@
-var BracketData = require('../index');
+var bracketData = require('../lib/index');
 var assert = require('assert');
 var year = '2013';
 var sport = 'ncaa-mens-basketball';
 
 describe('Bracket Data', function () {
     it('should create a bracket with only the default property: bracket', function () {
-        var b = new BracketData({
+        var b = bracketData({
+            year: year,
+            sport: sport
+        });
+
+        var b2 = new bracketData({
             year: year,
             sport: sport
         });
 
         assert.strictEqual(true, b.hasOwnProperty('bracket'));
+        assert.strictEqual(true, b2.hasOwnProperty('bracket'));
+
+        assert.strictEqual(b.bracket.regions.MW.teams, b2.bracket.regions.MW.teams);
     });
 
     it('should create a bracket with the specifed properties', function () {
-        var b = new BracketData({
+        var b = bracketData({
             year: year,
-            sport: sport,
-            props: 'bracket constants regex order scoring locks'.split(' ')
+            sport: sport
         });
 
         assert.strictEqual(true, b.hasOwnProperty('bracket'));
@@ -29,10 +36,9 @@ describe('Bracket Data', function () {
     });
 
     it('should not add certain properties to instance', function () {
-        var b = new BracketData({
+        var b = bracketData({
             year: year,
-            sport: sport,
-            props: 'all'
+            sport: sport
         });
 
         assert.strictEqual(false, b.hasOwnProperty('props'));
@@ -42,7 +48,7 @@ describe('Bracket Data', function () {
 
     it('should throw an error if year+sport is non-existant', function () {
         assert.throws(function () {
-            new BracketData({
+            bracketData({
                 year: '9',
                 sport: 'world-crazyball-championship'
             });

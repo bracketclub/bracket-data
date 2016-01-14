@@ -76,7 +76,13 @@ request(url, function(err, resp, body) {
         }
 
         return [region.toUpperCase(), teams];
-    }).object().value();
+    }).map(function (r) {
+        var o = {};
+        o[r[0]] = r[1];
+        return o;
+    }).value();
+
+    teams = _.assign.apply(_, teams);
 
     if (year) {
         var dataDir = path.resolve(__dirname, '../data/' + sport);
