@@ -7,7 +7,7 @@
     "email": "luke@lukekarrys.com",
     "url": "http://lukekarrys.com"
   },
-  "browser": "lib/browser/index.js",
+  "browser": "browser/index.js",
   "bugs": {
     "url": "http://github.com/tweetyourbracket/bracket-data/issues"
   },
