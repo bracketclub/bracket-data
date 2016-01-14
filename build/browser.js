@@ -4,6 +4,7 @@ var path = require('path');
 var _ = require('lodash');
 var fs = require('fs');
 var alce = require('alce');
+var mkdirp = require('mkdirp').sync;
 var dataDir = path.resolve(__dirname, '../data');
 var staticDir = path.resolve(__dirname, '../browser');
 
@@ -34,6 +35,7 @@ var dataFiles = _.chain(walkdir.sync(dataDir)).filter(function (dataPath) {
 }).value();
 
 var index = {};
+mkdirp(staticDir);
 dataFiles.forEach(function (df) {
     df.years.forEach(function (y) {
         var data = B({sport: df.sport, year: y});
