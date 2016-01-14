@@ -10,6 +10,11 @@ describe('Bracket Data', function () {
             return bracketData({sport: sport, year: year});
         });
 
+        brackets.forEach(function (b) {
+            assert.ok(b.scoring.standard);
+            assert.ok(b.scoring.gooley);
+        });
+
         var sRegionTeams = _.map(brackets, 'bracket').map(function (b) {
             return b.regions.S.teams;
         });

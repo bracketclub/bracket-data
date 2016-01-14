@@ -12,13 +12,14 @@
     "url": "http://github.com/tweetyourbracket/bracket-data/issues"
   },
   "dependencies": {
-    "lodash": "^4.0.0"
+    "lodash.merge": "^4.0.1"
   },
   "devDependencies": {
     "browserify": "^13.0.0",
     "cheerio": "^0.19.0",
     "js-size": "^1.0.5",
     "jshint": "^2.9.1-rc3",
+    "lodash": "^4.0.0",
     "minimist": "^1.2.0",
     "mocha": "~2.3.4",
     "precommit-hook": "^3.0.0",
