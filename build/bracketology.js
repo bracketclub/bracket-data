@@ -17,7 +17,11 @@ var sport = argv.sport;
 var year = argv.year;
 
 var order = require('../data/' + sport + '/defaults').order;
-var url = 'http://espn.go.com/ncb/bracketology';
+var urls = {
+    'ncaa-mens-basketball': 'http://espn.go.com/ncb/bracketology',
+    'ncaa-womens-basketball': 'http://espn.go.com/womens-college-basketball/bracketology'
+};
+var url = urls[sport];
 var regionMap = {
     'midwest': 'MW'
 };
