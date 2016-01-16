@@ -6,7 +6,7 @@ var fs = require('fs');
 
 var argv = require('minimist')(process.argv.slice(2), {
     default: {
-        sport: 'ncaa-mens-basketball'
+        sport: 'ncaam'
     },
     alias: {
         y: 'year',
@@ -18,8 +18,8 @@ var year = argv.year;
 
 var order = require('../data/' + sport + '/defaults').order;
 var urls = {
-    'ncaa-mens-basketball': 'http://espn.go.com/ncb/bracketology',
-    'ncaa-womens-basketball': 'http://espn.go.com/womens-college-basketball/bracketology'
+    'ncaam': 'http://espn.go.com/ncb/bracketology',
+    'ncaaw': 'http://espn.go.com/womens-college-basketball/bracketology'
 };
 var url = urls[sport];
 var regionMap = {

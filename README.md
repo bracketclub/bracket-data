@@ -31,7 +31,7 @@ In Node, you can require the module as normally would:
 // Node usage
 var ncaam2013 = require('bracket-data')({
     year: '2013',
-    sport: 'ncaa-mens-basketball'
+    sport: 'ncaam'
 });
 ```
 
@@ -39,7 +39,7 @@ In a browser, the files are provided prebuilt so that you don't include the whol
 
 ```js
 // For usage in a browser without bundling data for any other sport/year
-var ncaam2013 = require('bracket-data/browser/ncaa-mens-basketball-2013');
+var ncaam2013 = require('bracket-data/browser/ncaam-2013');
 ```
 
 If you don't care about including all the data for every sport/year, then you can still require it normally:
@@ -48,7 +48,7 @@ If you don't care about including all the data for every sport/year, then you ca
 // Browser usage, although this bundles data for every sport/year
 var ncaam2013 = require('bracket-data')({
     year: '2013',
-    sport: 'ncaa-mens-basketball'
+    sport: 'ncaam'
 });
 ```
 
@@ -56,7 +56,7 @@ var ncaam2013 = require('bracket-data')({
 
 Hopefully enough to display an interactive bracket. There are many other modules for doing things like explicity [validating, scoring and updating a bracket](http://github.com/tweetyourbracket).
 
-Here are the specific properties with examples from the `ncaa-mens-basketball-2013` bracket. Keep in mind, that the data will change based on the number of teams in the bracket, the number of regions and which teams.
+Here are the specific properties with examples from the `ncaam-2013` bracket. Keep in mind, that the data will change based on the number of teams in the bracket, the number of regions and which teams.
 
 - `bracket`: an object structured to have each region with the necessary properties. For example:
 
@@ -155,7 +155,7 @@ or a pretty standard scoring system like:
 }
 ```
 
-or even as complex as the [gooley scoring method](http://seattletimes.com/html/localnews/2014497228_officepool15m.html) which [I have modeled here](https://github.com/tweetyourbracket/bracket-data/blob/master/data/ncaa-mens-basketball/2013.json#L26-L33).
+or even as complex as the [gooley scoring method](http://seattletimes.com/html/localnews/2014497228_officepool15m.html) which [I have modeled here](https://github.com/tweetyourbracket/bracket-data/blob/master/data/ncaam/2013.json#L26-L33).
 
 - `locks`: a date string of when the bracket locks. Locking is when the first game of the bracket has begun and no more picks should be allowed.
 
@@ -182,16 +182,17 @@ And the following properties are **optional**:
 
 These properties are merged recursively (using [`lodash's merge`](http://lodash.com/docs#merge)) with the properties from `defaults.json` being overwritten by the properties from `YYYY.json`. This allows for things that don't change often (such as the `order`) to only be written in one place, whereas things such as `teams` (which change every year) to be located in the appropriate file.
 
-*Also see the above section for further explanation about these properites or go look at a complete example: [defaults.json](https://github.com/tweetyourbracket/bracket-data/blob/master/data/ncaa-mens-basketball/defaults.json), [YYYY.json](https://github.com/tweetyourbracket/bracket-data/blob/master/data/ncaa-mens-basketball/2013.json).*
+*Also see the above section for further explanation about these properites or go look at a complete example: [defaults.json](https://github.com/tweetyourbracket/bracket-data/blob/master/data/ncaam/defaults.json), [YYYY.json](https://github.com/tweetyourbracket/bracket-data/blob/master/data/ncaam/2013.json).*
 
 
 ## Which sports does it have?
 
 Currently it only has a few, but the next priority will be adding the 2014 data very quickly after it is available.
 
-- `ncaa-mens-basketball`: `[2012-2016]`
-- `ncaa-mens-hockey`: `[2013]`
-- `nhl`: `[2015]`
+- NCAA Mens Basketball `ncaam`: `[2012-2016]`
+- NCAA Womens Basketball `ncaaw`: `[2016]`
+- NCAA Mens Hockey `ncaamh`: `[2013]`
+- NHL `nhl`: `[2015]`
 
 
 ## Contributing

@@ -2,10 +2,10 @@ var bracketData = require('../lib/index');
 var assert = require('assert');
 
 describe('Bracket Data', function () {
-    it('should have correct data for ncaa-mens-basketball', function () {
+    it('should have correct data for ncaam', function () {
         var b = bracketData({
             year: '2013',
-            sport: 'ncaa-mens-basketball'
+            sport: 'ncaam'
         });
 
         assert.strictEqual(b.constants.REGION_COUNT, 4);

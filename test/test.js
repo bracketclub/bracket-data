@@ -1,7 +1,7 @@
 var bracketData = require('../lib/index');
 var assert = require('assert');
 var year = '2013';
-var sport = 'ncaa-mens-basketball';
+var sport = 'ncaam';
 
 describe('Bracket Data', function () {
     it('should create a bracket with only the default property: bracket', function () {

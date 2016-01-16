@@ -5,7 +5,7 @@ describe('Bracket Data', function () {
     it('should have correct data for ncaa-mens-hockey', function () {
         var b = bracketData({
             year: '2013',
-            sport: 'ncaa-mens-hockey'
+            sport: 'ncaamh'
         });
 
         assert.strictEqual(b.constants.REGION_COUNT, 4);
