@@ -16,16 +16,15 @@ var argv = require('minimist')(process.argv.slice(2), {
 var sport = argv.sport;
 var year = argv.year;
 
-var order = require('../data/' + sport + '/defaults').order;
 var urls = {
     'ncaam': 'http://espn.go.com/ncb/bracketology',
     'ncaaw': 'http://espn.go.com/womens-college-basketball/bracketology'
 };
 var url = urls[sport];
+
 var regionMap = {
     'midwest': 'MW'
 };
-
 var specialNames = {
     'a&m': 'A&M',
     'a&t': 'A&T',
@@ -37,12 +36,20 @@ var specialNames = {
     'byu': 'BYU',
     'uab': 'UAB',
     'fl': 'FL',
+    'fla': 'Fla',
     'ul': 'UL',
     'ucla': 'UCLA',
-    'st': 'State',
+    'st': 'St',
     'utep': 'UTEP',
-    '-little': '-Little'
+    '-little': '-Little',
+    '-edwardsville': '-Edwardsville',
+    'unc': 'UNC',
+    'vcu': 'VCU',
+    'usc': 'USC',
+    'csu': 'CSU',
+    'siu': 'SIU'
 };
+
 var replaceSpecialNames = function (name) {
     _.each(specialNames, function (newName, oldName) {
         var regexp = new RegExp('\\b' + oldName + '\\b', 'i');
@@ -54,39 +61,51 @@ var replaceSpecialNames = function (name) {
     return name;
 };
 
+var getTeamSeed = function (team) {
+    return parseInt(team.trim().match(/^\d+/)[0], 10);
+};
+
+var getElText = function ($, selector) {
+    return $(selector).map(function () { return $(this).text(); }).get();
+};
 
 request(url, function(err, resp, body) {
     var $ = cheerio.load(body);
-    var teams = $('.team').map(function () { return $(this).text(); }).get();
-    var regions = $('.region h3').map(function () { return $(this).text(); }).get();
 
-    teams = _.chain(teams).map(function (team) {
-        return team
-        .trim()
-        .replace(/\d/g, '')
-        .toLowerCase().split(' ').map(replaceSpecialNames).map(function (word) {
-            return _.capitalize(word);
-        }).join(' ');
-    }).chunk(16).map(function (region) {
-        return _.sortBy(region, function (value, index) {
-            return order[index];
+    var sortedRegions = _.chunk(getElText($, '.team'), 16)
+    .map(function (region) {
+        return _.sortBy(region, getTeamSeed)
+        .map(function (team) {
+            team = team
+            .trim()
+            .replace(/\d/g, '')
+            .toLowerCase();
+
+            if (sport === 'ncaaw') {
+                team = team.replace(/(.*)\/.*/, '$1');
+            }
+
+            return team
+            .split(' ')
+            .map(_.capitalize)
+            .map(replaceSpecialNames)
+            .join(' ');
         });
-    }).map(function (teams, index) {
-        var region = regions[index].toLowerCase();
-        if (regionMap[region]) {
-            region = regionMap[region];
+    });
+
+    var regionIds = _.map(getElText($, '.region h3'), function (region) {
+        var regionKey = region.toLowerCase();
+
+        if (regionMap[regionKey]) {
+            return regionMap[regionKey].toUpperCase();
         } else {
-            region = region.charAt(0);
+            return regionKey.charAt(0).toUpperCase();
         }
+    });
 
-        return [region.toUpperCase(), teams];
-    }).map(function (r) {
-        var o = {};
-        o[r[0]] = r[1];
-        return o;
-    }).value();
-
-    teams = _.assign.apply(_, teams);
+    var teams = _.transform(regionIds, function (res, id, index) {
+        res[id] = sortedRegions[index];
+    }, {});
 
     if (year) {
         var dataDir = path.resolve(__dirname, '../data/' + sport);
