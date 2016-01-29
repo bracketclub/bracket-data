@@ -18,7 +18,8 @@ describe('Bracket Data', function () {
         assert.strictEqual(true, b.hasOwnProperty('bracket'));
         assert.strictEqual(true, b2.hasOwnProperty('bracket'));
 
-        assert.strictEqual(b.bracket.regions.MW.teams, b2.bracket.regions.MW.teams);
+        assert.strictEqual(b.bracket.regions.MW.teams[0], b2.bracket.regions.MW.teams[0]);
+        assert.strictEqual(b.bracket.regions.MW.teams[15], b2.bracket.regions.MW.teams[15]);
     });
 
     it('should create a bracket with the specifed properties', function () {
