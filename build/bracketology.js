@@ -49,7 +49,8 @@ var specialNames = {
     'csu': 'CSU',
     'siu': 'SIU',
     '-webb': '-Webb',
-    'ut': 'UT'
+    'ut': 'UT',
+    'ipfw': 'IPFW'
 };
 
 var replaceSpecialNames = function (name) {

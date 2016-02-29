@@ -46,6 +46,7 @@
     "url": "http://github.com/tweetyourbracket/bracket-data.git"
   },
   "scripts": {
+    "bracketology": "node build/bracketology.js -y 2016 -s ncaaw && node build/bracketology.js -y 2016 -s ncaam",
     "browser:size": "browserify browser/index | js-size",
     "build": "node build/browser",
     "lint": "jshint .",
