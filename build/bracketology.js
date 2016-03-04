@@ -43,6 +43,7 @@ var specialNames = {
     'utep': 'UTEP',
     '-little': '-Little',
     '-edwardsville': '-Edwardsville',
+    '-cookman': '-Cookman',
     'unc': 'UNC',
     'vcu': 'VCU',
     'usc': 'USC',
