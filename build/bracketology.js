@@ -51,7 +51,8 @@ var specialNames = {
     'siu': 'SIU',
     '-webb': '-Webb',
     'ut': 'UT',
-    'ipfw': 'IPFW'
+    'ipfw': 'IPFW',
+    'ualr': 'UALR'
 };
 
 var replaceSpecialNames = function (name) {
