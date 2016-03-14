@@ -1,0 +1,1117 @@
+
+> scores@3.0.2 teams /Users/lukekarrys/projects/tweetyourbracket/scores
+> ./lib/getTeams.js "http://espn.go.com/mens-college-basketball/scoreboard/_/date/20160315" "http://espn.go.com/mens-college-basketball/scoreboard/_/date/20160316" "http://espn.go.com/mens-college-basketball/scoreboard/_/date/20160317" "http://espn.go.com/mens-college-basketball/scoreboard/_/date/20160318"
+
+{
+  "east": [
+    {
+      "rank": 1,
+      "abbrv": "UNC",
+      "shortName": "UNC",
+      "longName": "North Carolina Tar Heels",
+      "teamName": "Tar Heels",
+      "name": "North Carolina",
+      "names": [
+        "UNC",
+        "North Carolina Tar Heels",
+        "Tar Heels",
+        "North Carolina",
+        "UNC"
+      ],
+      "region": "east"
+    },
+    {
+      "rank": 2,
+      "abbrv": "XAV",
+      "shortName": "Xavier",
+      "longName": "Xavier Musketeers",
+      "teamName": "Musketeers",
+      "name": "Xavier",
+      "names": [
+        "Xavier",
+        "Xavier Musketeers",
+        "Musketeers",
+        "Xavier",
+        "XAV"
+      ],
+      "region": "east"
+    },
+    {
+      "rank": 3,
+      "abbrv": "WVU",
+      "shortName": "West Virginia",
+      "longName": "West Virginia Mountaineers",
+      "teamName": "Mountaineers",
+      "name": "West Virginia",
+      "names": [
+        "West Virginia",
+        "West Virginia Mountaineers",
+        "Mountaineers",
+        "West Virginia",
+        "WVU"
+      ],
+      "region": "east"
+    },
+    {
+      "rank": 4,
+      "abbrv": "UK",
+      "shortName": "Kentucky",
+      "longName": "Kentucky Wildcats",
+      "teamName": "Wildcats",
+      "name": "Kentucky",
+      "names": [
+        "Kentucky",
+        "Kentucky Wildcats",
+        "Wildcats",
+        "Kentucky",
+        "UK"
+      ],
+      "region": "east"
+    },
+    {
+      "rank": 5,
+      "abbrv": "IND",
+      "shortName": "Indiana",
+      "longName": "Indiana Hoosiers",
+      "teamName": "Hoosiers",
+      "name": "Indiana",
+      "names": [
+        "Indiana",
+        "Indiana Hoosiers",
+        "Hoosiers",
+        "Indiana",
+        "IND"
+      ],
+      "region": "east"
+    },
+    {
+      "rank": 6,
+      "abbrv": "ND",
+      "shortName": "Notre Dame",
+      "longName": "Notre Dame Fighting Irish",
+      "teamName": "Fighting Irish",
+      "name": "Notre Dame",
+      "names": [
+        "Notre Dame",
+        "Notre Dame Fighting Irish",
+        "Fighting Irish",
+        "Notre Dame",
+        "ND"
+      ],
+      "region": "east"
+    },
+    {
+      "rank": 7,
+      "abbrv": "WIS",
+      "shortName": "Wisconsin",
+      "longName": "Wisconsin Badgers",
+      "teamName": "Badgers",
+      "name": "Wisconsin",
+      "names": [
+        "Wisconsin",
+        "Wisconsin Badgers",
+        "Badgers",
+        "Wisconsin",
+        "WIS"
+      ],
+      "region": "east"
+    },
+    {
+      "rank": 8,
+      "abbrv": "USC",
+      "shortName": "USC",
+      "longName": "USC Trojans",
+      "teamName": "Trojans",
+      "name": "USC",
+      "names": [
+        "USC",
+        "USC Trojans",
+        "Trojans",
+        "USC",
+        "USC"
+      ],
+      "region": "east"
+    },
+    {
+      "rank": 9,
+      "abbrv": "PROV",
+      "shortName": "Providence",
+      "longName": "Providence Friars",
+      "teamName": "Friars",
+      "name": "Providence",
+      "names": [
+        "Providence",
+        "Providence Friars",
+        "Friars",
+        "Providence",
+        "PROV"
+      ],
+      "region": "east"
+    },
+    {
+      "rank": 10,
+      "abbrv": "PITT",
+      "shortName": "Pitt",
+      "longName": "Pittsburgh Panthers",
+      "teamName": "Panthers",
+      "name": "Pittsburgh",
+      "names": [
+        "Pitt",
+        "Pittsburgh Panthers",
+        "Panthers",
+        "Pittsburgh",
+        "PITT"
+      ],
+      "region": "east"
+    },
+    {
+      "rank": 11,
+      "abbrv": "TLSA",
+      "shortName": "Tulsa",
+      "longName": "Tulsa Golden Hurricane",
+      "teamName": "Golden Hurricane",
+      "name": "Tulsa",
+      "names": [
+        "Tulsa",
+        "Tulsa Golden Hurricane",
+        "Golden Hurricane",
+        "Tulsa",
+        "TLSA"
+      ],
+      "region": "east"
+    },
+    {
+      "rank": 11,
+      "abbrv": "MICH",
+      "shortName": "Michigan",
+      "longName": "Michigan Wolverines",
+      "teamName": "Wolverines",
+      "name": "Michigan",
+      "names": [
+        "Michigan",
+        "Michigan Wolverines",
+        "Wolverines",
+        "Michigan",
+        "MICH"
+      ],
+      "region": "east"
+    },
+    {
+      "rank": 12,
+      "abbrv": "CHAT",
+      "shortName": "Chattanooga",
+      "longName": "Chattanooga Mocs",
+      "teamName": "Mocs",
+      "name": "Chattanooga",
+      "names": [
+        "Chattanooga",
+        "Chattanooga Mocs",
+        "Mocs",
+        "Chattanooga",
+        "CHAT"
+      ],
+      "region": "east"
+    },
+    {
+      "rank": 13,
+      "abbrv": "STON",
+      "shortName": "Stony Brook",
+      "longName": "Stony Brook Seawolves",
+      "teamName": "Seawolves",
+      "name": "Stony Brook",
+      "names": [
+        "Stony Brook",
+        "Stony Brook Seawolves",
+        "Seawolves",
+        "Stony Brook",
+        "STON"
+      ],
+      "region": "east"
+    },
+    {
+      "rank": 14,
+      "abbrv": "SFA",
+      "shortName": "SF Austin",
+      "longName": "Stephen F. Austin Lumberjacks",
+      "teamName": "Lumberjacks",
+      "name": "Stephen F. Austin",
+      "names": [
+        "SF Austin",
+        "Stephen F. Austin Lumberjacks",
+        "Lumberjacks",
+        "Stephen F. Austin",
+        "SFA"
+      ],
+      "region": "east"
+    },
+    {
+      "rank": 15,
+      "abbrv": "WEB",
+      "shortName": "Weber State",
+      "longName": "Weber State Wildcats",
+      "teamName": "Wildcats",
+      "name": "Weber State",
+      "names": [
+        "Weber State",
+        "Weber State Wildcats",
+        "Wildcats",
+        "Weber State",
+        "WEB"
+      ],
+      "region": "east"
+    },
+    {
+      "rank": 16,
+      "abbrv": "FDU",
+      "shortName": "Fair Dickinson",
+      "longName": "Fairleigh Dickinson Knights",
+      "teamName": "Knights",
+      "name": "Fairleigh Dickinson",
+      "names": [
+        "Fair Dickinson",
+        "Fairleigh Dickinson Knights",
+        "Knights",
+        "Fairleigh Dickinson",
+        "FDU"
+      ],
+      "region": "east"
+    },
+    {
+      "rank": 16,
+      "abbrv": "FGCU",
+      "shortName": "FGCU",
+      "longName": "Florida Gulf Coast Eagles",
+      "teamName": "Eagles",
+      "name": "Florida Gulf Coast",
+      "names": [
+        "FGCU",
+        "Florida Gulf Coast Eagles",
+        "Eagles",
+        "Florida Gulf Coast",
+        "FGCU"
+      ],
+      "region": "east"
+    },
+    {
+      "rank": 16,
+      "abbrv": "TBD",
+      "shortName": "TBD",
+      "longName": "TBD",
+      "teamName": "TBD",
+      "name": "",
+      "names": [
+        "TBD",
+        "TBD",
+        "TBD",
+        "TBD"
+      ],
+      "region": "east"
+    }
+  ],
+  "midwest": [
+    {
+      "rank": 1,
+      "abbrv": "UVA",
+      "shortName": "UVA",
+      "longName": "Virginia Cavaliers",
+      "teamName": "Cavaliers",
+      "name": "Virginia",
+      "names": [
+        "UVA",
+        "Virginia Cavaliers",
+        "Cavaliers",
+        "Virginia",
+        "UVA"
+      ],
+      "region": "midwest"
+    },
+    {
+      "rank": 2,
+      "abbrv": "MSU",
+      "shortName": "Michigan State",
+      "longName": "Michigan State Spartans",
+      "teamName": "Spartans",
+      "name": "Michigan State",
+      "names": [
+        "Michigan State",
+        "Michigan State Spartans",
+        "Spartans",
+        "Michigan State",
+        "MSU"
+      ],
+      "region": "midwest"
+    },
+    {
+      "rank": 3,
+      "abbrv": "UTAH",
+      "shortName": "Utah",
+      "longName": "Utah Utes",
+      "teamName": "Utes",
+      "name": "Utah",
+      "names": [
+        "Utah",
+        "Utah Utes",
+        "Utes",
+        "Utah",
+        "UTAH"
+      ],
+      "region": "midwest"
+    },
+    {
+      "rank": 4,
+      "abbrv": "ISU",
+      "shortName": "Iowa State",
+      "longName": "Iowa State Cyclones",
+      "teamName": "Cyclones",
+      "name": "Iowa State",
+      "names": [
+        "Iowa State",
+        "Iowa State Cyclones",
+        "Cyclones",
+        "Iowa State",
+        "ISU"
+      ],
+      "region": "midwest"
+    },
+    {
+      "rank": 5,
+      "abbrv": "PUR",
+      "shortName": "Purdue",
+      "longName": "Purdue Boilermakers",
+      "teamName": "Boilermakers",
+      "name": "Purdue",
+      "names": [
+        "Purdue",
+        "Purdue Boilermakers",
+        "Boilermakers",
+        "Purdue",
+        "PUR"
+      ],
+      "region": "midwest"
+    },
+    {
+      "rank": 6,
+      "abbrv": "HALL",
+      "shortName": "Seton Hall",
+      "longName": "Seton Hall Pirates",
+      "teamName": "Pirates",
+      "name": "Seton Hall",
+      "names": [
+        "Seton Hall",
+        "Seton Hall Pirates",
+        "Pirates",
+        "Seton Hall",
+        "HALL"
+      ],
+      "region": "midwest"
+    },
+    {
+      "rank": 7,
+      "abbrv": "DAY",
+      "shortName": "Dayton",
+      "longName": "Dayton Flyers",
+      "teamName": "Flyers",
+      "name": "Dayton",
+      "names": [
+        "Dayton",
+        "Dayton Flyers",
+        "Flyers",
+        "Dayton",
+        "DAY"
+      ],
+      "region": "midwest"
+    },
+    {
+      "rank": 8,
+      "abbrv": "TTU",
+      "shortName": "Texas Tech",
+      "longName": "Texas Tech Red Raiders",
+      "teamName": "Red Raiders",
+      "name": "Texas Tech",
+      "names": [
+        "Texas Tech",
+        "Texas Tech Red Raiders",
+        "Red Raiders",
+        "Texas Tech",
+        "TTU"
+      ],
+      "region": "midwest"
+    },
+    {
+      "rank": 9,
+      "abbrv": "BUT",
+      "shortName": "Butler",
+      "longName": "Butler Bulldogs",
+      "teamName": "Bulldogs",
+      "name": "Butler",
+      "names": [
+        "Butler",
+        "Butler Bulldogs",
+        "Bulldogs",
+        "Butler",
+        "BUT"
+      ],
+      "region": "midwest"
+    },
+    {
+      "rank": 10,
+      "abbrv": "SYR",
+      "shortName": "Syracuse",
+      "longName": "Syracuse Orange",
+      "teamName": "Orange",
+      "name": "Syracuse",
+      "names": [
+        "Syracuse",
+        "Syracuse Orange",
+        "Orange",
+        "Syracuse",
+        "SYR"
+      ],
+      "region": "midwest"
+    },
+    {
+      "rank": 11,
+      "abbrv": "GONZ",
+      "shortName": "Gonzaga",
+      "longName": "Gonzaga Bulldogs",
+      "teamName": "Bulldogs",
+      "name": "Gonzaga",
+      "names": [
+        "Gonzaga",
+        "Gonzaga Bulldogs",
+        "Bulldogs",
+        "Gonzaga",
+        "GONZ"
+      ],
+      "region": "midwest"
+    },
+    {
+      "rank": 12,
+      "abbrv": "UALR",
+      "shortName": "AR-Little Rock",
+      "longName": "Arkansas-Little Rock Trojans",
+      "teamName": "Trojans",
+      "name": "Arkansas-Little Rock",
+      "names": [
+        "AR-Little Rock",
+        "Arkansas-Little Rock Trojans",
+        "Trojans",
+        "Arkansas-Little Rock",
+        "UALR"
+      ],
+      "region": "midwest"
+    },
+    {
+      "rank": 13,
+      "abbrv": "IONA",
+      "shortName": "Iona",
+      "longName": "Iona Gaels",
+      "teamName": "Gaels",
+      "name": "Iona",
+      "names": [
+        "Iona",
+        "Iona Gaels",
+        "Gaels",
+        "Iona",
+        "IONA"
+      ],
+      "region": "midwest"
+    },
+    {
+      "rank": 14,
+      "abbrv": "FRES",
+      "shortName": "Fresno State",
+      "longName": "Fresno State Bulldogs",
+      "teamName": "Bulldogs",
+      "name": "Fresno State",
+      "names": [
+        "Fresno State",
+        "Fresno State Bulldogs",
+        "Bulldogs",
+        "Fresno State",
+        "FRES"
+      ],
+      "region": "midwest"
+    },
+    {
+      "rank": 15,
+      "abbrv": "MTSU",
+      "shortName": "Mid Tennessee",
+      "longName": "Middle Tennessee Blue Raiders",
+      "teamName": "Blue Raiders",
+      "name": "Middle Tennessee",
+      "names": [
+        "Mid Tennessee",
+        "Middle Tennessee Blue Raiders",
+        "Blue Raiders",
+        "Middle Tennessee",
+        "MTSU"
+      ],
+      "region": "midwest"
+    },
+    {
+      "rank": 16,
+      "abbrv": "HAMP",
+      "shortName": "Hampton",
+      "longName": "Hampton Pirates",
+      "teamName": "Pirates",
+      "name": "Hampton",
+      "names": [
+        "Hampton",
+        "Hampton Pirates",
+        "Pirates",
+        "Hampton",
+        "HAMP"
+      ],
+      "region": "midwest"
+    }
+  ],
+  "south": [
+    {
+      "rank": 1,
+      "abbrv": "KU",
+      "shortName": "Kansas",
+      "longName": "Kansas Jayhawks",
+      "teamName": "Jayhawks",
+      "name": "Kansas",
+      "names": [
+        "Kansas",
+        "Kansas Jayhawks",
+        "Jayhawks",
+        "Kansas",
+        "KU"
+      ],
+      "region": "south"
+    },
+    {
+      "rank": 2,
+      "abbrv": "NOVA",
+      "shortName": "Villanova",
+      "longName": "Villanova Wildcats",
+      "teamName": "Wildcats",
+      "name": "Villanova",
+      "names": [
+        "Villanova",
+        "Villanova Wildcats",
+        "Wildcats",
+        "Villanova",
+        "NOVA"
+      ],
+      "region": "south"
+    },
+    {
+      "rank": 3,
+      "abbrv": "MIA",
+      "shortName": "Miami",
+      "longName": "Miami Hurricanes",
+      "teamName": "Hurricanes",
+      "name": "Miami",
+      "names": [
+        "Miami",
+        "Miami Hurricanes",
+        "Hurricanes",
+        "Miami",
+        "MIA"
+      ],
+      "region": "south"
+    },
+    {
+      "rank": 4,
+      "abbrv": "CAL",
+      "shortName": "Cal",
+      "longName": "California Golden Bears",
+      "teamName": "Golden Bears",
+      "name": "California",
+      "names": [
+        "Cal",
+        "California Golden Bears",
+        "Golden Bears",
+        "California",
+        "CAL"
+      ],
+      "region": "south"
+    },
+    {
+      "rank": 5,
+      "abbrv": "MD",
+      "shortName": "Maryland",
+      "longName": "Maryland Terrapins",
+      "teamName": "Terrapins",
+      "name": "Maryland",
+      "names": [
+        "Maryland",
+        "Maryland Terrapins",
+        "Terrapins",
+        "Maryland",
+        "MD"
+      ],
+      "region": "south"
+    },
+    {
+      "rank": 6,
+      "abbrv": "ARIZ",
+      "shortName": "Arizona",
+      "longName": "Arizona Wildcats",
+      "teamName": "Wildcats",
+      "name": "Arizona",
+      "names": [
+        "Arizona",
+        "Arizona Wildcats",
+        "Wildcats",
+        "Arizona",
+        "ARIZ"
+      ],
+      "region": "south"
+    },
+    {
+      "rank": 7,
+      "abbrv": "IOWA",
+      "shortName": "Iowa",
+      "longName": "Iowa Hawkeyes",
+      "teamName": "Hawkeyes",
+      "name": "Iowa",
+      "names": [
+        "Iowa",
+        "Iowa Hawkeyes",
+        "Hawkeyes",
+        "Iowa",
+        "IOWA"
+      ],
+      "region": "south"
+    },
+    {
+      "rank": 8,
+      "abbrv": "COLO",
+      "shortName": "Colorado",
+      "longName": "Colorado Buffaloes",
+      "teamName": "Buffaloes",
+      "name": "Colorado",
+      "names": [
+        "Colorado",
+        "Colorado Buffaloes",
+        "Buffaloes",
+        "Colorado",
+        "COLO"
+      ],
+      "region": "south"
+    },
+    {
+      "rank": 9,
+      "abbrv": "CONN",
+      "shortName": "UConn",
+      "longName": "Connecticut Huskies",
+      "teamName": "Huskies",
+      "name": "Connecticut",
+      "names": [
+        "UConn",
+        "Connecticut Huskies",
+        "Huskies",
+        "Connecticut",
+        "CONN"
+      ],
+      "region": "south"
+    },
+    {
+      "rank": 10,
+      "abbrv": "TEM",
+      "shortName": "Temple",
+      "longName": "Temple Owls",
+      "teamName": "Owls",
+      "name": "Temple",
+      "names": [
+        "Temple",
+        "Temple Owls",
+        "Owls",
+        "Temple",
+        "TEM"
+      ],
+      "region": "south"
+    },
+    {
+      "rank": 11,
+      "abbrv": "WICH",
+      "shortName": "Wichita State",
+      "longName": "Wichita St Shockers",
+      "teamName": "Shockers",
+      "name": "Wichita St",
+      "names": [
+        "Wichita State",
+        "Wichita St Shockers",
+        "Shockers",
+        "Wichita St",
+        "WICH"
+      ],
+      "region": "south"
+    },
+    {
+      "rank": 11,
+      "abbrv": "VAN",
+      "shortName": "Vanderbilt",
+      "longName": "Vanderbilt Commodores",
+      "teamName": "Commodores",
+      "name": "Vanderbilt",
+      "names": [
+        "Vanderbilt",
+        "Vanderbilt Commodores",
+        "Commodores",
+        "Vanderbilt",
+        "VAN"
+      ],
+      "region": "south"
+    },
+    {
+      "rank": 12,
+      "abbrv": "SDST",
+      "shortName": "South Dakota St",
+      "longName": "South Dakota State Jackrabbits",
+      "teamName": "Jackrabbits",
+      "name": "South Dakota State",
+      "names": [
+        "South Dakota St",
+        "South Dakota State Jackrabbits",
+        "Jackrabbits",
+        "South Dakota State",
+        "SDST"
+      ],
+      "region": "south"
+    },
+    {
+      "rank": 13,
+      "abbrv": "HAW",
+      "shortName": "Hawaii",
+      "longName": "Hawaii Rainbow Warriors",
+      "teamName": "Rainbow Warriors",
+      "name": "Hawaii",
+      "names": [
+        "Hawaii",
+        "Hawaii Rainbow Warriors",
+        "Rainbow Warriors",
+        "Hawaii",
+        "HAW"
+      ],
+      "region": "south"
+    },
+    {
+      "rank": 14,
+      "abbrv": "BUFF",
+      "shortName": "Buffalo",
+      "longName": "Buffalo Bulls",
+      "teamName": "Bulls",
+      "name": "Buffalo",
+      "names": [
+        "Buffalo",
+        "Buffalo Bulls",
+        "Bulls",
+        "Buffalo",
+        "BUFF"
+      ],
+      "region": "south"
+    },
+    {
+      "rank": 15,
+      "abbrv": "UNCA",
+      "shortName": "UNC Asheville",
+      "longName": "UNC Asheville Bulldogs",
+      "teamName": "Bulldogs",
+      "name": "UNC Asheville",
+      "names": [
+        "UNC Asheville",
+        "UNC Asheville Bulldogs",
+        "Bulldogs",
+        "UNC Asheville",
+        "UNCA"
+      ],
+      "region": "south"
+    },
+    {
+      "rank": 16,
+      "abbrv": "PEAY",
+      "shortName": "Austin Peay",
+      "longName": "Austin Peay Governors",
+      "teamName": "Governors",
+      "name": "Austin Peay",
+      "names": [
+        "Austin Peay",
+        "Austin Peay Governors",
+        "Governors",
+        "Austin Peay",
+        "PEAY"
+      ],
+      "region": "south"
+    }
+  ],
+  "west": [
+    {
+      "rank": 1,
+      "abbrv": "ORE",
+      "shortName": "Oregon",
+      "longName": "Oregon Ducks",
+      "teamName": "Ducks",
+      "name": "Oregon",
+      "names": [
+        "Oregon",
+        "Oregon Ducks",
+        "Ducks",
+        "Oregon",
+        "ORE"
+      ],
+      "region": "west"
+    },
+    {
+      "rank": 2,
+      "abbrv": "OKLA",
+      "shortName": "Oklahoma",
+      "longName": "Oklahoma Sooners",
+      "teamName": "Sooners",
+      "name": "Oklahoma",
+      "names": [
+        "Oklahoma",
+        "Oklahoma Sooners",
+        "Sooners",
+        "Oklahoma",
+        "OKLA"
+      ],
+      "region": "west"
+    },
+    {
+      "rank": 3,
+      "abbrv": "TAMU",
+      "shortName": "Texas A&M",
+      "longName": "Texas A&M Aggies",
+      "teamName": "Aggies",
+      "name": "Texas A&M",
+      "names": [
+        "Texas A&M",
+        "Texas A&M Aggies",
+        "Aggies",
+        "Texas A&M",
+        "TAMU"
+      ],
+      "region": "west"
+    },
+    {
+      "rank": 4,
+      "abbrv": "DUKE",
+      "shortName": "Duke",
+      "longName": "Duke Blue Devils",
+      "teamName": "Blue Devils",
+      "name": "Duke",
+      "names": [
+        "Duke",
+        "Duke Blue Devils",
+        "Blue Devils",
+        "Duke",
+        "DUKE"
+      ],
+      "region": "west"
+    },
+    {
+      "rank": 5,
+      "abbrv": "BAY",
+      "shortName": "Baylor",
+      "longName": "Baylor Bears",
+      "teamName": "Bears",
+      "name": "Baylor",
+      "names": [
+        "Baylor",
+        "Baylor Bears",
+        "Bears",
+        "Baylor",
+        "BAY"
+      ],
+      "region": "west"
+    },
+    {
+      "rank": 6,
+      "abbrv": "TEX",
+      "shortName": "Texas",
+      "longName": "Texas Longhorns",
+      "teamName": "Longhorns",
+      "name": "Texas",
+      "names": [
+        "Texas",
+        "Texas Longhorns",
+        "Longhorns",
+        "Texas",
+        "TEX"
+      ],
+      "region": "west"
+    },
+    {
+      "rank": 7,
+      "abbrv": "ORST",
+      "shortName": "Oregon State",
+      "longName": "Oregon State Beavers",
+      "teamName": "Beavers",
+      "name": "Oregon State",
+      "names": [
+        "Oregon State",
+        "Oregon State Beavers",
+        "Beavers",
+        "Oregon State",
+        "ORST"
+      ],
+      "region": "west"
+    },
+    {
+      "rank": 8,
+      "abbrv": "JOES",
+      "shortName": "Saint Joe's",
+      "longName": "Saint Joseph's Hawks",
+      "teamName": "Hawks",
+      "name": "Saint Joseph's",
+      "names": [
+        "Saint Joe's",
+        "Saint Joseph's Hawks",
+        "Hawks",
+        "Saint Joseph's",
+        "JOES"
+      ],
+      "region": "west"
+    },
+    {
+      "rank": 9,
+      "abbrv": "CIN",
+      "shortName": "Cincinnati",
+      "longName": "Cincinnati Bearcats",
+      "teamName": "Bearcats",
+      "name": "Cincinnati",
+      "names": [
+        "Cincinnati",
+        "Cincinnati Bearcats",
+        "Bearcats",
+        "Cincinnati",
+        "CIN"
+      ],
+      "region": "west"
+    },
+    {
+      "rank": 10,
+      "abbrv": "VCU",
+      "shortName": "VCU",
+      "longName": "VCU Rams",
+      "teamName": "Rams",
+      "name": "VCU",
+      "names": [
+        "VCU",
+        "VCU Rams",
+        "Rams",
+        "VCU",
+        "VCU"
+      ],
+      "region": "west"
+    },
+    {
+      "rank": 11,
+      "abbrv": "UNI",
+      "shortName": "Northern Iowa",
+      "longName": "Northern Iowa Panthers",
+      "teamName": "Panthers",
+      "name": "Northern Iowa",
+      "names": [
+        "Northern Iowa",
+        "Northern Iowa Panthers",
+        "Panthers",
+        "Northern Iowa",
+        "UNI"
+      ],
+      "region": "west"
+    },
+    {
+      "rank": 12,
+      "abbrv": "YALE",
+      "shortName": "Yale",
+      "longName": "Yale Bulldogs",
+      "teamName": "Bulldogs",
+      "name": "Yale",
+      "names": [
+        "Yale",
+        "Yale Bulldogs",
+        "Bulldogs",
+        "Yale",
+        "YALE"
+      ],
+      "region": "west"
+    },
+    {
+      "rank": 13,
+      "abbrv": "UNCW",
+      "shortName": "UNC Wilmington",
+      "longName": "UNC Wilmington Seahawks",
+      "teamName": "Seahawks",
+      "name": "UNC Wilmington",
+      "names": [
+        "UNC Wilmington",
+        "UNC Wilmington Seahawks",
+        "Seahawks",
+        "UNC Wilmington",
+        "UNCW"
+      ],
+      "region": "west"
+    },
+    {
+      "rank": 14,
+      "abbrv": "GB",
+      "shortName": "Green Bay",
+      "longName": "Green Bay Phoenix",
+      "teamName": "Phoenix",
+      "name": "Green Bay",
+      "names": [
+        "Green Bay",
+        "Green Bay Phoenix",
+        "Phoenix",
+        "Green Bay",
+        "GB"
+      ],
+      "region": "west"
+    },
+    {
+      "rank": 15,
+      "abbrv": "CSB",
+      "shortName": "CSU Bakersfield",
+      "longName": "CSU Bakersfield Roadrunners",
+      "teamName": "Roadrunners",
+      "name": "CSU Bakersfield",
+      "names": [
+        "CSU Bakersfield",
+        "CSU Bakersfield Roadrunners",
+        "Roadrunners",
+        "CSU Bakersfield",
+        "CSB"
+      ],
+      "region": "west"
+    },
+    {
+      "rank": 16,
+      "abbrv": "SOU",
+      "shortName": "Southern",
+      "longName": "Southern Jaguars",
+      "teamName": "Jaguars",
+      "name": "Southern",
+      "names": [
+        "Southern",
+        "Southern Jaguars",
+        "Jaguars",
+        "Southern",
+        "SOU"
+      ],
+      "region": "west"
+    },
+    {
+      "rank": 16,
+      "abbrv": "HC",
+      "shortName": "Holy Cross",
+      "longName": "Holy Cross Crusaders",
+      "teamName": "Crusaders",
+      "name": "Holy Cross",
+      "names": [
+        "Holy Cross",
+        "Holy Cross Crusaders",
+        "Crusaders",
+        "Holy Cross",
+        "HC"
+      ],
+      "region": "west"
+    }
+  ]
+}
