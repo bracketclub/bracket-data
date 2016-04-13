@@ -4,7 +4,7 @@ var assert = require('assert');
 describe('Bracket Data', function () {
     it('should have correct data for ncaam', function () {
         var b = bracketData({
-            year: '2015',
+            year: '2016',
             sport: 'nhl'
         });
 
