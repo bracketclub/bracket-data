@@ -1,0 +1,37 @@
+{
+  "regions": [
+    {
+      "id": "W",
+      "name": "West",
+      "fullname": "Western Conference"
+    },
+    {
+      "id": "E",
+      "name": "East",
+      "fullname": "Eastern Conference"
+    }
+  ],
+  "teams": {
+    "W": [
+      "Golden State",
+      "San Antonio",
+      "Oklahoma City",
+      "Los Angeles (C)",
+      "Portland",
+      "Dallas",
+      "Memphis",
+      "Houston"
+    ],
+    "E": [
+      "Cleveland",
+      "Toronto",
+      "Miami",
+      "Atlanta",
+      "Boston",
+      "Charlotte",
+      "Indiana",
+      "Detroit"
+    ]
+  },
+  "locks": "2016-04-16T16:30:00.000Z"
+}

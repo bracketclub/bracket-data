@@ -1,0 +1,24 @@
+{
+  "scoring": {
+    "standard": [
+      10,
+      20,
+      40,
+      80
+    ]
+  },
+  "order": [
+    1,
+    8,
+    4,
+    5,
+    2,
+    7,
+    3,
+    6
+  ],
+  "finalRegion": {
+    "id": "F",
+    "name": "Finals"
+  }
+}
