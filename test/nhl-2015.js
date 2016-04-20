@@ -11,7 +11,7 @@ describe('Bracket Data', function () {
         assert.strictEqual(b.constants.REGION_COUNT, 4);
         assert.strictEqual(b.constants.FINAL_ID, 'F');
         assert.strictEqual(b.constants.ALL_IDS.join(' '), 'C P A M F');
-        assert.strictEqual(b.constants.FINAL_NAME, 'Conference Finals');
+        assert.strictEqual(b.constants.FINAL_NAME, 'Stanley Cup Finals');
         assert.strictEqual(b.constants.UNPICKED_MATCH, 'X');
         assert.strictEqual(b.constants.TEAMS_PER_REGION, 4);
         assert.strictEqual(b.bracket.regions.C.teams[2], 'Chicago');
