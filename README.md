@@ -191,8 +191,8 @@ Currently it only has a few, but the next priority will be adding the 2014 data 
 
 - NCAA Mens Basketball `ncaam`: `[2012-2016]`
 - NCAA Womens Basketball `ncaaw`: `[2016]`
-- NCAA Mens Hockey `ncaamh`: `[2013]`
-- NHL `nhl`: `[2015]`
+- NHL `nhl`: `[2015, 2016]`
+- NBA `nba`: `[2016]`
 
 
 ## Contributing

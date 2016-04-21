@@ -29,8 +29,8 @@ describe('Bracket Data', function () {
         assert.equal(_.map(sRegionTeams, '1.0').join(), 'Kentucky,Kansas,Florida,Duke');
 
         brackets.forEach(function (b) {
-            assert.deepEqual(Object.keys(b[0]), ['bracket', 'constants', 'regex', 'order', 'scoring', 'locks']);
-            assert.deepEqual(Object.keys(b[1]), ['bracket', 'constants', 'regex', 'order', 'scoring', 'locks']);
+            assert.deepEqual(Object.keys(b[0]), ['bracket', 'constants', 'regex', 'order', 'scoring', 'locks', 'complete']);
+            assert.deepEqual(Object.keys(b[1]), ['bracket', 'constants', 'regex', 'order', 'scoring', 'locks', 'complete']);
         });
     });
 });
