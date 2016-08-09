@@ -12,20 +12,20 @@
     "url": "http://github.com/tweetyourbracket/bracket-data/issues"
   },
   "dependencies": {
-    "lodash.merge": "^4.0.1"
+    "lodash.merge": "^4.5.1"
   },
   "devDependencies": {
     "alce": "^1.2.0",
-    "browserify": "^13.0.0",
-    "cheerio": "^0.19.0",
-    "js-size": "^1.0.5",
-    "jshint": "^2.9.1-rc3",
-    "lodash": "^4.0.0",
+    "browserify": "^13.1.0",
+    "cheerio": "^0.20.0",
+    "git-validate": "^2.1.4",
+    "js-size": "^1.0.6",
+    "lodash": "^4.14.2",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
-    "mocha": "~2.3.4",
-    "precommit-hook": "^3.0.0",
-    "request": "^2.67.0",
+    "mocha": "^3.0.2",
+    "request": "^2.74.0",
+    "standard": "^8.0.0-beta.3",
     "walkdir": "0.0.11"
   },
   "homepage": "http://github.com/tweetyourbracket/bracket-data",
@@ -49,8 +49,13 @@
     "bracketology": "node build/bracketology.js -y 2016 -s ncaaw && node build/bracketology.js -y 2016 -s ncaam",
     "browser:size": "browserify browser/index | js-size",
     "build": "node build/browser",
-    "lint": "jshint .",
+    "lint": "standard",
     "test": "npm run build && mocha -c -u bdd -R spec test/*.js",
     "validate": "npm ls"
+  },
+  "standard": {
+    "ignore": [
+      "browser/*"
+    ]
   }
 }
