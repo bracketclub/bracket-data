@@ -19,7 +19,7 @@
     "browserify": "^13.1.0",
     "cheerio": "^0.22.0",
     "git-validate": "^2.1.4",
-    "js-size": "^1.0.6",
+    "js-size": "^2.0.0",
     "lodash": "^4.14.2",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
