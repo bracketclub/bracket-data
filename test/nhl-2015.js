@@ -16,6 +16,8 @@ describe('Bracket Data', function () {
     assert.strictEqual(b.constants.FINAL_NAME, 'Stanley Cup Finals')
     assert.strictEqual(b.constants.UNPICKED_MATCH, 'X')
     assert.strictEqual(b.constants.TEAMS_PER_REGION, 4)
+    assert.strictEqual(b.constants.BEST_OF, 7)
+    assert.deepEqual(b.constants.BEST_OF_RANGE, [4, 5, 6, 7])
     assert.strictEqual(b.bracket.regions.C.teams[2], 'Chicago')
   })
 })
