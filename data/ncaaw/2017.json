@@ -1,0 +1,100 @@
+{
+  "regions": [
+    {
+      "id": "B",
+      "name": "Bridgeport",
+      "fullname": "Bridgeport Region"
+    },
+    {
+      "id": "L",
+      "name": "Lexington",
+      "fullname": "Lexington Region"
+    },
+    {
+      "id": "O",
+      "name": "Oklahoma City",
+      "fullname": "Oklahoma City Region"
+    },
+    {
+      "id": "S",
+      "name": "Stockton",
+      "fullname": "Stockton Region"
+    }
+  ],
+  "teams": {
+    "B": [
+      "Connecticut",
+      "UCLA",
+      "Louisville",
+      "Virginia Tech",
+      "California",
+      "West Virginia",
+      "Green Bay",
+      "Texas A&M",
+      "Michigan State",
+      "Michigan",
+      "Harvard",
+      "Buffalo",
+      "Bucknell",
+      "Belmont",
+      "San Francisco",
+      "Southern"
+    ],
+    "L": [
+      "Maryland",
+      "Mississippi State",
+      "Duke",
+      "Washington",
+      "Kansas State",
+      "Texas",
+      "Depaul",
+      "Auburn",
+      "Syracuse",
+      "Tulane",
+      "Charlotte",
+      "South Dakota",
+      "Drake",
+      "Radford",
+      "New Hampshire",
+      "Sacred Heart"
+    ],
+    "O": [
+      "Baylor",
+      "Florida State",
+      "Stanford",
+      "Miami (Fla.)",
+      "Arizona State",
+      "Oklahoma",
+      "Tennessee",
+      "Utah",
+      "LSU",
+      "Northwestern",
+      "Boise State",
+      "Quinnipiac",
+      "Jacksonville",
+      "UT-arlington",
+      "Mercer",
+      "New Mexico State"
+    ],
+    "S": [
+      "South Carolina",
+      "Notre Dame",
+      "Ohio State",
+      "Oregon State",
+      "NC State",
+      "Kentucky",
+      "South Florida",
+      "Oklahoma State",
+      "Marquette",
+      "Southern California",
+      "George Washington",
+      "Drexel",
+      "UC Davis",
+      "Sfa",
+      "N. Colorado",
+      "Md-eastern Shore"
+    ]
+  },
+  "locks": "2017-03-17T16:00:00.000Z",
+  "complete": "2017-04-03T05:30:00.000Z"
+}
