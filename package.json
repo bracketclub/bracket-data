@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "alce": "^1.2.0",
-    "browserify": "^13.1.0",
+    "browserify": "^14.0.0",
     "cheerio": "^0.22.0",
     "git-validate": "^2.1.4",
     "js-size": "^2.0.0",
