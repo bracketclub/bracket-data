@@ -195,10 +195,6 @@ Currently it only has a few, but the next priority will be adding the 2014 data 
 - NBA `nba`: `[2016]`
 
 
-## Contributing
-
-Feel free to open any pull requests or issues. This is the basis of [tweetyourbracket.com](http://tweetyourbracket.com), but outside of that, I don't think it has gotten a lot of use. If there is a way to make this better, I am eager to hear it.
-
 ## Anything else?
 
 If this is interesting to you, I think you should follow [@tweetthebracket](https://twitter.com/tweetthebracket) on Twitter. There are also a lot of other bracket related modules on our [GitHub organization page](https://github.com/tweetyourbracket).
