@@ -5,7 +5,7 @@ Get some helpful data for a tournament bracket.
 
 [![NPM](https://nodei.co/npm/bracket-data.png)](https://nodei.co/npm/bracket-data/)
 
-[![Build Status](https://travis-ci.org/tweetyourbracket/bracket-data.png?branch=master)](https://travis-ci.org/tweetyourbracket/bracket-data)
+[![Build Status](https://travis-ci.org/bracketclub/bracket-data.png?branch=master)](https://travis-ci.org/bracketclub/bracket-data)
 
 ## What is a bracket?
 
@@ -54,7 +54,7 @@ var ncaam2013 = require('bracket-data')({
 
 ## What data does this module give me?
 
-Hopefully enough to display an interactive bracket. There are many other modules for doing things like explicity [validating, scoring and updating a bracket](http://github.com/tweetyourbracket).
+Hopefully enough to display an interactive bracket. There are many other modules for doing things like explicity [validating, scoring and updating a bracket](http://github.com/bracketclub).
 
 Here are the specific properties with examples from the `ncaam-2013` bracket. Keep in mind, that the data will change based on the number of teams in the bracket, the number of regions and which teams.
 
@@ -155,7 +155,7 @@ or a pretty standard scoring system like:
 }
 ```
 
-or even as complex as the [gooley scoring method](http://seattletimes.com/html/localnews/2014497228_officepool15m.html) which [I have modeled here](https://github.com/tweetyourbracket/bracket-data/blob/master/data/ncaam/2013.json#L26-L33).
+or even as complex as the [gooley scoring method](http://seattletimes.com/html/localnews/2014497228_officepool15m.html) which [I have modeled here](https://github.com/bracketclub/bracket-data/blob/master/data/ncaam/2013.json#L26-L33).
 
 - `locks`: a date string of when the bracket locks. Locking is when the first game of the bracket has begun and no more picks should be allowed.
 
@@ -182,7 +182,7 @@ And the following properties are **optional**:
 
 These properties are merged recursively (using [`lodash's merge`](http://lodash.com/docs#merge)) with the properties from `defaults.json` being overwritten by the properties from `YYYY.json`. This allows for things that don't change often (such as the `order`) to only be written in one place, whereas things such as `teams` (which change every year) to be located in the appropriate file.
 
-*Also see the above section for further explanation about these properites or go look at a complete example: [defaults.json](https://github.com/tweetyourbracket/bracket-data/blob/master/data/ncaam/defaults.json), [YYYY.json](https://github.com/tweetyourbracket/bracket-data/blob/master/data/ncaam/2013.json).*
+*Also see the above section for further explanation about these properites or go look at a complete example: [defaults.json](https://github.com/bracketclub/bracket-data/blob/master/data/ncaam/defaults.json), [YYYY.json](https://github.com/bracketclub/bracket-data/blob/master/data/ncaam/2013.json).*
 
 
 ## Which sports does it have?
@@ -197,7 +197,7 @@ Currently it only has a few, but the next priority will be adding the 2014 data 
 
 ## Anything else?
 
-If this is interesting to you, I think you should follow [@tweetthebracket](https://twitter.com/tweetthebracket) on Twitter. There are also a lot of other bracket related modules on our [GitHub organization page](https://github.com/tweetyourbracket).
+If this is interesting to you, I think you should follow [@tweetthebracket](https://twitter.com/tweetthebracket) on Twitter. There are also a lot of other bracket related modules on our [GitHub organization page](https://github.com/bracketclub).
 
 ### LICENSE
 

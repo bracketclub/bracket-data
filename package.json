@@ -9,7 +9,7 @@
   },
   "browser": "browser/index.js",
   "bugs": {
-    "url": "http://github.com/tweetyourbracket/bracket-data/issues"
+    "url": "https://github.com/bracketclub/bracket-data/issues"
   },
   "dependencies": {
     "lodash.merge": "^4.5.1"
@@ -28,11 +28,12 @@
     "standard": "^8.0.0-beta.3",
     "walkdir": "0.0.11"
   },
-  "homepage": "http://github.com/tweetyourbracket/bracket-data",
+  "homepage": "https://github.com/bracketclub/bracket-data",
   "keywords": [
     "bracket",
     "ncaa",
-    "tweetyourbracket"
+    "tweetyourbracket",
+    "bracketclub"
   ],
   "license": "MIT",
   "main": "lib/index.js",
@@ -43,7 +44,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/tweetyourbracket/bracket-data.git"
+    "url": "https://github.com/bracketclub/bracket-data.git"
   },
   "scripts": {
     "bracketology": "node build/bracketology.js -y 2017 -s ncaaw && node build/bracketology.js -y 2017 -s ncaam",
