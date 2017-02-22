@@ -52,7 +52,8 @@ var specialNames = {
   '-webb': '-Webb',
   'ut': 'UT',
   'ipfw': 'IPFW',
-  'ualr': 'UALR'
+  'ualr': 'UALR',
+  'tcu': 'TCU'
 }
 
 var replaceSpecialNames = function (name) {
