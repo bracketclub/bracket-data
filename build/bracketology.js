@@ -125,4 +125,3 @@ request(url, function (err, resp, body) {
     process.stdout.write(JSON.stringify(teams, null, 2))
   }
 })
-
