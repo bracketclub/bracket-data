@@ -50,4 +50,3 @@ var fnWrapper = function (d) {
   return 'module.exports=function (o) {var _i=' + d + ';return _i[o.sport][o.year];};'
 }
 fs.writeFileSync(staticDir + '/index.js', fnWrapper(stringify(index)))
-
