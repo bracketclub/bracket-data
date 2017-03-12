@@ -6,9 +6,9 @@
       "fullname": "East Region"
     },
     {
-      "id": "S",
-      "name": "South",
-      "fullname": "South Region"
+      "id": "W",
+      "name": "West",
+      "fullname": "West Region"
     },
     {
       "id": "MW",
@@ -16,9 +16,9 @@
       "fullname": "Midwest Region"
     },
     {
-      "id": "W",
-      "name": "West",
-      "fullname": "West Region"
+      "id": "S",
+      "name": "South",
+      "fullname": "South Region"
     }
   ],
   "teams": {
