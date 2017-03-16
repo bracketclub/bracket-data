@@ -25,6 +25,7 @@
     "mkdirp": "^0.5.1",
     "mocha": "^3.0.2",
     "request": "^2.74.0",
+    "scores": "^3.3.0",
     "standard": "^9.0.0",
     "walkdir": "0.0.11"
   },
