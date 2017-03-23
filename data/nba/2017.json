@@ -1,0 +1,26 @@
+{
+  "teams": {
+    "W": [
+      "Golden State",
+      "San Antonio",
+      "Houston",
+      "Utah",
+      "Los Angeles (C)",
+      "Oklahoma City",
+      "Memphis",
+      "Denver"
+    ],
+    "E": [
+      "Cleveland",
+      "Boston",
+      "Washington",
+      "Toronto",
+      "Atlanta",
+      "Milwaukee",
+      "Indiana",
+      "Miami"
+    ]
+  },
+  "locks": "2017-04-15T16:30:00.000Z",
+  "complete": null
+}

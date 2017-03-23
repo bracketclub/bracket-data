@@ -1,26 +1,4 @@
 {
-  "regions": [
-    {
-      "id": "C",
-      "name": "Central",
-      "fullname": "Central Division"
-    },
-    {
-      "id": "P",
-      "name": "Pacific",
-      "fullname": "Pacific Division"
-    },
-    {
-      "id": "A",
-      "name": "Atlantic",
-      "fullname": "Atlantic Division"
-    },
-    {
-      "id": "M",
-      "name": "Metropolitan",
-      "fullname": "Metropolitan Division"
-    }
-  ],
   "teams": {
     "C": [
       "St. Louis",

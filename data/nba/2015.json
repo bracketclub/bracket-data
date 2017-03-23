@@ -1,0 +1,26 @@
+{
+  "teams": {
+    "W": [
+      "Golden State",
+      "Houston",
+      "Los Angeles (C)",
+      "Portland",
+      "Memphis",
+      "San Antonio",
+      "Dallas",
+      "New Orleans"
+    ],
+    "E": [
+      "Atlanta",
+      "Cleveland",
+      "Chicago",
+      "Toronto",
+      "Washington",
+      "Milwaukee",
+      "Boston",
+      "Brooklyn"
+    ]
+  },
+  "locks": "2015-04-18T16:30:00.000Z",
+  "complete": "2015-06-17T07:00:00.000Z"
+}

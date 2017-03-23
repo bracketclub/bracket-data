@@ -1,4 +1,16 @@
 {
+  "regions": [
+    {
+      "id": "W",
+      "name": "West",
+      "fullname": "Western Conference"
+    },
+    {
+      "id": "E",
+      "name": "East",
+      "fullname": "Eastern Conference"
+    }
+  ],
   "scoring": {
     "standard": [
       [10, 3],

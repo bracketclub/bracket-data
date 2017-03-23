@@ -1,0 +1,30 @@
+{
+  "teams": {
+    "C": [
+      "Chicago",
+      "Minnesota",
+      "St. Louis",
+      "Nashville"
+    ],
+    "P": [
+      "San Jose",
+      "Anaheim",
+      "Edmonton",
+      "Calgary"
+    ],
+    "A": [
+      "Montreal",
+      "Ottawa",
+      "Toronto",
+      "New York (R)"
+    ],
+    "M": [
+      "Washington",
+      "Pittsburgh",
+      "Columbus",
+      "Boston"
+    ]
+  },
+  "locks": "2017-04-12T23:00:00.000Z",
+  "complete": null
+}

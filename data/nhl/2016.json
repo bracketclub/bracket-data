@@ -1,26 +1,4 @@
 {
-  "regions": [
-    {
-      "id": "C",
-      "name": "Central",
-      "fullname": "Central Division"
-    },
-    {
-      "id": "P",
-      "name": "Pacific",
-      "fullname": "Pacific Division"
-    },
-    {
-      "id": "A",
-      "name": "Atlantic",
-      "fullname": "Atlantic Division"
-    },
-    {
-      "id": "M",
-      "name": "Metropolitan",
-      "fullname": "Metropolitan Division"
-    }
-  ],
   "teams": {
     "C": [
       "Dallas",
@@ -48,5 +26,5 @@
     ]
   },
   "locks": "2016-04-13T23:00:00.000Z",
-  "complete": null
+  "complete": "2016-06-13T07:00:00.000Z"
 }
