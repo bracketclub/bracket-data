@@ -7,22 +7,22 @@
       "Nashville"
     ],
     "P": [
-      "San Jose",
       "Anaheim",
       "Edmonton",
+      "San Jose",
       "Calgary"
     ],
     "A": [
       "Montreal",
       "Ottawa",
-      "Toronto",
+      "Boston",
       "New York (R)"
     ],
     "M": [
       "Washington",
       "Pittsburgh",
       "Columbus",
-      "Boston"
+      "Toronto"
     ]
   },
   "locks": "2017-04-12T23:00:00.000Z",
