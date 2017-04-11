@@ -11,8 +11,8 @@
       "Portland"
     ],
     "E": [
-      "Cleveland",
       "Boston",
+      "Cleveland",
       "Toronto",
       "Washington",
       "Atlanta",
@@ -21,6 +21,6 @@
       "Indiana"
     ]
   },
-  "locks": "2017-04-15T16:30:00.000Z",
+  "locks": "2017-04-15T17:00:00.000Z",
   "complete": null
 }
