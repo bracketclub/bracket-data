@@ -38,6 +38,7 @@
   "bestOf": 7,
   "finalRegion": {
     "id": "F",
-    "name": "Stanley Cup Final"
+    "name": "Final",
+    "fullname": "Stanley Cup Final"
   }
 }

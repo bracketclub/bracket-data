@@ -32,6 +32,7 @@
   "bestOf": 7,
   "finalRegion": {
     "id": "F",
-    "name": "NBA Finals"
+    "name": "Finals",
+    "fullname": "NBA Finals"
   }
 }
