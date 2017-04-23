@@ -30,6 +30,7 @@
   "bestOf": 1,
   "finalRegion": {
     "id": "FF",
-    "name": "Final Four"
+    "name": "Final Four",
+    "championshipName": "National Championship"
   }
 }

@@ -15,6 +15,7 @@ describe('Bracket Data', function () {
     assert.strictEqual(b.constants.ALL_IDS.join(' '), 'MW W S E FF')
     assert.strictEqual(b.constants.FINAL_NAME, 'Final Four')
     assert.strictEqual(b.constants.FINAL_FULLNAME, 'Final Four')
+    assert.strictEqual(b.constants.FINAL_CHAMPIONSHIP_NAME, 'National Championship')
     assert.strictEqual(b.constants.UNPICKED_MATCH, 'X')
     assert.strictEqual(b.constants.TEAMS_PER_REGION, 16)
     assert.strictEqual(b.constants.BEST_OF, 1)
