@@ -26,7 +26,7 @@
     "mocha": "^3.0.2",
     "request": "^2.74.0",
     "scores": "^3.3.0",
-    "standard": "^9.0.0",
+    "standard": "^10.0.2",
     "walkdir": "0.0.11"
   },
   "homepage": "https://github.com/bracketclub/bracket-data",
