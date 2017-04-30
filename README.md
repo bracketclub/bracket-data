@@ -1,6 +1,8 @@
 bracket-data
 ============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bracketclub/bracket-data.svg)](https://greenkeeper.io/)
+
 Get some helpful data for a tournament bracket.
 
 [![NPM](https://nodei.co/npm/bracket-data.png)](https://nodei.co/npm/bracket-data/)
