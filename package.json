@@ -17,7 +17,7 @@
   "devDependencies": {
     "alce": "^1.2.0",
     "browserify": "^14.0.0",
-    "cheerio": "^0.22.0",
+    "cheerio": "^1.0.0-rc.2",
     "git-validate": "^2.1.4",
     "js-size": "^2.0.0",
     "lodash": "^4.14.2",
