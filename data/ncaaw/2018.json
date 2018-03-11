@@ -1,0 +1,100 @@
+{
+  "regions": [
+    {
+      "id": "B",
+      "name": "Bridgeport",
+      "fullname": "Bridgeport Region"
+    },
+    {
+      "id": "O",
+      "name": "Oklahoma City",
+      "fullname": "Oklahoma City Region"
+    },
+    {
+      "id": "L",
+      "name": "Lexington",
+      "fullname": "Lexington Region"
+    },
+    {
+      "id": "S",
+      "name": "Stockton",
+      "fullname": "Stockton Region"
+    }
+  ],
+  "teams": {
+    "B": [
+      "Connecticut",
+      "Duke",
+      "Maryland",
+      "UCLA",
+      "Texas A&M",
+      "West Virginia",
+      "Temple",
+      "Syracuse",
+      "Iowa State",
+      "Oregon",
+      "Elon",
+      "Penn",
+      "Boise State",
+      "Bucknell",
+      "Hampton",
+      "Albany"
+    ],
+    "O": [
+      "Baylor",
+      "Mississippi State",
+      "Washington",
+      "Louisville",
+      "Tennessee",
+      "Oklahoma",
+      "DePaul",
+      "LSU",
+      "California",
+      "UNI",
+      "Gonzaga",
+      "Dayton",
+      "Chattanooga",
+      "Montana State",
+      "Troy",
+      "Texas Southern"
+    ],
+    "L": [
+      "Notre Dame",
+      "Stanford",
+      "Texas",
+      "Kentucky",
+      "Ohio State",
+      "NC State",
+      "Kansas State",
+      "Green Bay",
+      "Purdue",
+      "Drake",
+      "Auburn",
+      "Western Kentucky",
+      "Belmont",
+      "Central Arkansas",
+      "New Mexico State",
+      "Robert Morris"
+    ],
+    "S": [
+      "South Carolina",
+      "Oregon State",
+      "Florida State",
+      "Miami",
+      "Marquette",
+      "Missouri",
+      "Creighton",
+      "Arizona State",
+      "Michigan State",
+      "Toledo",
+      "South Florida",
+      "Quinnipiac",
+      "Florida Gulf Coast",
+      "Western Illinois",
+      "Long Beach State",
+      "UNC Asheville"
+    ]
+  },
+  "locks": "2018-03-16T16:00:00.000Z",
+  "complete": "2018-04-02T05:30:00.000Z"
+}
