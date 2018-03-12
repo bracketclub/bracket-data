@@ -23,11 +23,11 @@
     "lodash": "^4.14.2",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
-    "mocha": "^3.4.1",
+    "mocha": "^4.0.0",
     "request": "^2.74.0",
     "scores": "^3.3.0",
     "standard": "^10.0.2",
-    "walkdir": "0.0.11"
+    "walkdir": "0.0.12"
   },
   "homepage": "https://github.com/bracketclub/bracket-data",
   "keywords": [
