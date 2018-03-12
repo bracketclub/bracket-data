@@ -1,9 +1,9 @@
 {
   "regions": [
     {
-      "id": "E",
-      "name": "East",
-      "fullname": "East Region"
+      "id": "S",
+      "name": "South",
+      "fullname": "South Region"
     },
     {
       "id": "W",
@@ -11,88 +11,88 @@
       "fullname": "West Region"
     },
     {
+      "id": "E",
+      "name": "East",
+      "fullname": "East Region"
+    },
+    {
       "id": "MW",
       "name": "Midwest",
       "fullname": "Midwest Region"
-    },
-    {
-      "id": "S",
-      "name": "South",
-      "fullname": "South Region"
     }
   ],
   "teams": {
-    "E": [
-      "Villanova",
-      "Duke",
-      "Baylor",
-      "Florida",
+    "S": [
       "Virginia",
-      "SMU",
-      "South Carolina",
-      "Wisconsin",
-      "Virginia Tech",
-      "Marquette",
-      "USC",
-      "UNC Wilmington",
-      "East Tennessee State",
-      "New Mexico State",
-      "Troy",
-      "Mount St Mary's"
+      "Cincinnati",
+      "Tennessee",
+      "Arizona",
+      "Kentucky",
+      "Miami",
+      "Nevada",
+      "Creighton",
+      "Kansas State",
+      "Texas",
+      "Loyola Chicago",
+      "Davidson",
+      "Buffalo",
+      "Wright State",
+      "Georgia State",
+      "UMBC"
     ],
     "W": [
-      "Gonzaga",
-      "Arizona",
-      "Florida State",
-      "West Virginia",
-      "Notre Dame",
-      "Maryland",
-      "Saint Mary's",
-      "Northwestern",
-      "Vanderbilt",
-      "VCU",
       "Xavier",
-      "Princeton",
-      "Bucknell",
-      "Florida Gulf Coast",
-      "North Dakota",
-      "South Dakota State"
+      "North Carolina",
+      "Gonzaga",
+      "Ohio State",
+      "Houston",
+      "Texas A&M",
+      "Missouri",
+      "Florida State",
+      "Providence",
+      "San Diego State",
+      "South Dakota State",
+      "UNC Greensboro",
+      "Montana",
+      "Lipscomb",
+      "North Carolina Central",
+      "Texas Southern"
+    ],
+    "E": [
+      "Villanova",
+      "Purdue",
+      "Texas Tech",
+      "Wichita State",
+      "West Virginia",
+      "Florida",
+      "Arkansas",
+      "Virginia Tech",
+      "Alabama",
+      "Butler",
+      "St Bonaventure / UCLA",
+      "Murray State",
+      "Marshall",
+      "Stephen F Austin",
+      "Cal State Fullerton",
+      "LIU Brooklyn / Radford"
     ],
     "MW": [
       "Kansas",
-      "Louisville",
-      "Oregon",
-      "Purdue",
-      "Iowa State",
-      "Creighton",
-      "Michigan",
-      "Miami",
+      "Duke",
       "Michigan State",
-      "Oklahoma State",
+      "Auburn",
+      "Clemson",
+      "TCU",
       "Rhode Island",
-      "Nevada",
-      "Vermont",
-      "Iona",
-      "Jacksonville State",
-      "UC Davis"
-    ],
-    "S": [
-      "North Carolina",
-      "Kentucky",
-      "UCLA",
-      "Butler",
-      "Minnesota",
-      "Cincinnati",
-      "Dayton",
-      "Arkansas",
       "Seton Hall",
-      "Wichita State",
-      "Kansas State",
-      "Middle Tennessee",
-      "Winthrop",
-      "Kent State",
-      "Northern Kentucky",
-      "Texas Southern"
+      "NC State",
+      "Oklahoma",
+      "Arizona State / Syracuse",
+      "New Mexico State",
+      "Charleston",
+      "Bucknell",
+      "Iona",
+      "Pennsylvania"
     ]
   },
   "scoring": {
