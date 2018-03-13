@@ -1,0 +1,100 @@
+{
+  "regions": [
+    {
+      "id": "A",
+      "name": "Albany",
+      "fullname": "Albany Region"
+    },
+    {
+      "id": "S",
+      "name": "Spokane",
+      "fullname": "Oklahoma City Region"
+    },
+    {
+      "id": "K",
+      "name": "Kansas City",
+      "fullname": "Kansas City Region"
+    },
+    {
+      "id": "L",
+      "name": "Lexington",
+      "fullname": "Lexington Region"
+    }
+  ],
+  "teams": {
+    "A": [
+      "Connecticut",
+      "South Carolina",
+      "Florida State",
+      "Georgia",
+      "Duke",
+      "South Florida",
+      "California",
+      "Miami",
+      "Quinnipiac",
+      "Virginia",
+      "Buffalo",
+      "Belmont",
+      "Mercer",
+      "Little Rock",
+      "North Carolina A&T",
+      "Saint Francis"
+    ],
+    "S": [
+      "Notre Dame",
+      "Oregon",
+      "Ohio State",
+      "Texas A&M",
+      "DePaul",
+      "LSU",
+      "Green Bay",
+      "South Dakota State",
+      "Villanova",
+      "Minnesota",
+      "Central Michigan",
+      "Oklahoma",
+      "Drake",
+      "George Washington",
+      "Seattle",
+      "Cal State Northridge"
+    ],
+    "K": [
+      "Mississippi State",
+      "Texas",
+      "UCLA",
+      "NC State",
+      "Maryland",
+      "Iowa",
+      "Arizona State",
+      "Syracuse",
+      "Oklahoma State",
+      "Nebraska",
+      "Creighton",
+      "Princeton",
+      "Elon",
+      "American",
+      "Maine",
+      "Nicholls State"
+    ],
+    "L": [
+      "Louisville",
+      "Baylor",
+      "Tennessee",
+      "Stanford",
+      "Missouri",
+      "Oregon State",
+      "Michigan",
+      "Marquette",
+      "Dayton",
+      "Northern Colorado",
+      "Western Kentucky",
+      "Florida Gulf Coast",
+      "Gonzaga",
+      "Liberty",
+      "Grambling",
+      "Boise State"
+    ]
+  },
+  "locks": "2018-03-16T16:00:00.000Z",
+  "complete": "2018-04-02T05:30:00.000Z"
+}
