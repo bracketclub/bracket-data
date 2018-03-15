@@ -189,10 +189,10 @@ These properties are merged recursively (using [`lodash's merge`](http://lodash.
 
 Currently it only has a few, but the next priority will be adding the 2014 data very quickly after it is available.
 
-- NCAA Mens Basketball `ncaam`: `[2012-2016]`
-- NCAA Womens Basketball `ncaaw`: `[2016]`
-- NHL `nhl`: `[2015, 2016]`
-- NBA `nba`: `[2016]`
+- NCAA Mens Basketball `ncaam`: `[2012, 2013, 2014, 2015, 2016, 2017, 2018]`
+- NCAA Womens Basketball `ncaaw`: `[2016, 2017, 2018]`
+- NHL `nhl`: `[2015, 2016, 2017]`
+- NBA `nba`: `[2015, 2016, 2017]`
 
 
 ## Anything else?
