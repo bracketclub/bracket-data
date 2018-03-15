@@ -52,6 +52,17 @@ var ncaam2013 = require('bracket-data')({
 });
 ```
 
+## Other Scripts
+
+This module has a few helper scripts which are used to make certain things easier.
+
+### `npm run bracketology`
+This will take the current year's teams from the ESPN Bracketology website and write them to the current year's JSON files. These usually wont be 100% accurate but will allow you to get some of the current year's data to test and is useful when the teams wont be selected for a few weeks.
+
+### `npm run names -- ncaam 2018 [URLS]`
+This will check the URLs for a full list of team names and reference them against the list of teams in the provided sport/year combination to make sure no teams are missing.
+
+
 ## What data does this module give me?
 
 Hopefully enough to display an interactive bracket. There are many other modules for doing things like explicity [validating, scoring and updating a bracket](http://github.com/bracketclub).
