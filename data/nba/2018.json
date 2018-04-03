@@ -1,0 +1,26 @@
+{
+  "teams": {
+    "W": [
+      "Houston",
+      "Golden State",
+      "Portland",
+      "San Antonio",
+      "Oklahoma City",
+      "Utah",
+      "Minnesota",
+      "New Orleans"
+    ],
+    "E": [
+      "Toronto",
+      "Boston",
+      "Cleveland",
+      "Philadelphia",
+      "Indiana",
+      "Washington",
+      "Miamia",
+      "Milwaukee"
+    ]
+  },
+  "locks": "2018-04-14T19:00:00.000Z",
+  "complete": "2018-06-18T07:00:00.000Z"
+}
