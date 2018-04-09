@@ -8,21 +8,21 @@
     ],
     "P": [
       "Vegas",
+      "Anaheim",
       "San Jose",
-      "Los Angeles",
-      "Anaheim"
+      "Los Angeles"
     ],
     "A": [
-      "Boston",
       "Tampa Bay",
+      "Boston",
       "Toronto",
       "New Jersey"
     ],
     "M": [
       "Washington",
       "Pittsburgh",
-      "Columbus",
-      "Philadelphia"
+      "Philadelphia",
+      "Columbus"
     ]
   },
   "locks": "2018-04-11T23:00:00.000Z",
