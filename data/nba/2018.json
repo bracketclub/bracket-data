@@ -4,21 +4,21 @@
       "Houston",
       "Golden State",
       "Portland",
-      "San Antonio",
       "Oklahoma City",
       "Utah",
-      "Minnesota",
-      "New Orleans"
+      "New Orleans",
+      "San Antonio",
+      "Minnesota"
     ],
     "E": [
       "Toronto",
       "Boston",
-      "Cleveland",
       "Philadelphia",
+      "Cleveland",
       "Indiana",
-      "Washington",
       "Miamia",
-      "Milwaukee"
+      "Milwaukee",
+      "Washington"
     ]
   },
   "locks": "2018-04-14T19:00:00.000Z",
