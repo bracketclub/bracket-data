@@ -29,7 +29,7 @@
     3,
     6
   ],
-  "bestOf": 1,
+  "bestOf": ["FT", "ET", "SO"],
   "finalRegion": {
     "id": "F",
     "name": "Final",
