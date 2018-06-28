@@ -1,0 +1,38 @@
+{
+  "regions": [
+    {
+      "id": "L",
+      "name": "",
+      "fullname": ""
+    },
+    {
+      "id": "R",
+      "name": "",
+      "fullname": ""
+    }
+  ],
+  "scoring": {
+    "standard": [
+      12,
+      25,
+      50,
+      100
+    ]
+  },
+  "order": [
+    1,
+    8,
+    4,
+    5,
+    2,
+    7,
+    3,
+    6
+  ],
+  "bestOf": 1,
+  "finalRegion": {
+    "id": "F",
+    "name": "Final",
+    "fullname": "Final"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "teams": {
+    "L": [
+      "Uruguay",
+      "Brazil",
+      "Belgium",
+      "France",
+      "Argentina",
+      "Japan",
+      "Mexico",
+      "Portugal"
+    ],
+    "R": [
+      "Spain",
+      "Sweden",
+      "Colombia",
+      "Croatia",
+      "Denmark",
+      "England",
+      "Switzerland",
+      "Russia"
+    ]
+  },
+  "locks": "2018-06-30T14:00:00.000Z",
+  "complete": "2018-07-15T15:00:00.000Z"
+}
