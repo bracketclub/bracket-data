@@ -1,0 +1,100 @@
+{
+  "regions": [
+    {
+      "id": "G",
+      "name": "Greensboro",
+      "fullname": "Greensboro Region"
+    },
+    {
+      "id": "P",
+      "name": "Portland",
+      "fullname": "Portland Region"
+    },
+    {
+      "id": "C",
+      "name": "Chicago",
+      "fullname": "Chicago Region"
+    },
+    {
+      "id": "A",
+      "name": "Albany",
+      "fullname": "Albany Region"
+    }
+  ],
+  "teams": {
+    "G": [
+      "Baylor",
+      "Iowa",
+      "NC State",
+      "South Carolina",
+      "Florida State",
+      "Kentucky",
+      "Missouri",
+      "California",
+      "North Carolina",
+      "Drake",
+      "Princeton",
+      "Bucknell",
+      "Belmont",
+      "Maine",
+      "Mercer",
+      "Abilene Christian"
+    ],
+    "P": [
+      "Mississippi State",
+      "Oregon",
+      "Syracuse",
+      "Miami (FL)",
+      "Arizona State",
+      "South Dakota State",
+      "Texas",
+      "South Dakota",
+      "Clemson",
+      "Indiana",
+      "Quinnipiac",
+      "UCF",
+      "Florida Gulf Coast",
+      "Fordham",
+      "Portland State",
+      "Southern"
+    ],
+    "C": [
+      "Notre Dame",
+      "Stanford",
+      "Iowa State",
+      "Texas A&M",
+      "Marquette",
+      "DePaul",
+      "BYU",
+      "Central Michigan",
+      "Michigan State",
+      "Auburn",
+      "Missouri State",
+      "Rice",
+      "Wright State",
+      "New Mexico State",
+      "UC Davis",
+      "Bethune–Cookman"
+    ],
+    "A": [
+      "Louisville",
+      "Connecticut",
+      "Maryland",
+      "Oregon State",
+      "Gonzaga",
+      "UCLA",
+      "Rutgers",
+      "Michigan",
+      "Kansas State",
+      "Buffalo",
+      "Tennessee",
+      "Little Rock",
+      "Boise State",
+      "Radford",
+      "Towson",
+      "Robert Morris"
+    ]
+  },
+  "locks": "2019-03-22T16:00:00.000Z",
+  "complete": "2019-04-08T05:30:00.000Z"
+}
