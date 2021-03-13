@@ -1,24 +1,24 @@
 {
   "regions": [
     {
-      "id": "1",
-      "name": "R1",
-      "fullname": "Region 1"
+      "id": "A",
+      "name": "A",
+      "fullname": "Region A"
     },
     {
-      "id": "4",
-      "name": "R4",
-      "fullname": "Region 4"
+      "id": "D",
+      "name": "D",
+      "fullname": "Region D"
     },
     {
-      "id": "2",
-      "name": "R2",
-      "fullname": "Region 2"
+      "id": "B",
+      "name": "B",
+      "fullname": "Region B"
     },
     {
-      "id": "3",
-      "name": "R3",
-      "fullname": "Region 3"
+      "id": "C",
+      "name": "C",
+      "fullname": "Region C"
     }
   ],
   "teams": {
