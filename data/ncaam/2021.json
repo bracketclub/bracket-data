@@ -22,7 +22,7 @@
     }
   ],
   "teams": {
-    "1": [
+    "A": [
       "Gonzaga",
       "Ohio State",
       "Texas",
@@ -40,7 +40,7 @@
       "Drexel",
       "Mount St. Mary's/Norfolk St."
     ],
-    "2": [
+    "B": [
       "Baylor",
       "Iowa",
       "Arkansas",
@@ -58,7 +58,7 @@
       "Cleveland St.",
       "Hartford"
     ],
-    "3": [
+    "C": [
       "Michigan",
       "Oklahoma St.",
       "Houston",
@@ -76,7 +76,7 @@
       "Iona",
       "Nicholls"
     ],
-    "4": [
+    "D": [
       "Illinois",
       "Alabama",
       "Kansas",
