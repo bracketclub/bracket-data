@@ -1,0 +1,100 @@
+{
+  "regions": [
+    {
+      "id": "A",
+      "name": "Alamo",
+      "fullname": "Alamo Region"
+    },
+    {
+      "id": "H",
+      "name": "Hemisfair",
+      "fullname": "Hemisfair Region"
+    },
+    {
+      "id": "M",
+      "name": "Mercado",
+      "fullname": "Mercado Region"
+    },
+    {
+      "id": "R",
+      "name": "River Walk",
+      "fullname": "River Walk Region"
+    }
+  ],
+  "teams": {
+    "A": [
+      "Stanford",
+      "Louisville",
+      "Georgia",
+      "Arkansas",
+      "Missouri St.",
+      "Northwestern",
+      "Texas",
+      "Marquette",
+      "Florida St.",
+      "Washington St.",
+      "Depaul",
+      "Delaware",
+      "Dayton",
+      "Idaho State",
+      "Troy",
+      "Jackson State"
+    ],
+    "H": [
+      "South Carolina",
+      "NC State",
+      "Arizona",
+      "Indiana",
+      "Georgia Tech",
+      "Rutgers",
+      "Iowa State",
+      "Oklahoma St.",
+      "Oregon St.",
+      "South Dakota",
+      "Mississippi St.",
+      "SFA",
+      "Wyoming",
+      "Boston U.",
+      "Mount St. Mary's",
+      "NC A&T"
+    ],
+    "M": [
+      "UConn",
+      "Baylor",
+      "Tennessee",
+      "Kentucky",
+      "Gonzaga",
+      "Oregon",
+      "South Florida",
+      "Syracuse",
+      "Michigan St.",
+      "FGCU",
+      "Wake Forest",
+      "Bowling Green",
+      "UC Davis",
+      "Marist",
+      "Stony Brook",
+      "Mercer"
+    ],
+    "R": [
+      "Texas A&M",
+      "Maryland",
+      "UCLA",
+      "West Virginia",
+      "Iowa",
+      "Michigan",
+      "Alabama",
+      "Virginia Tech",
+      "S. Dakota St.",
+      "North Carolina",
+      "UCF",
+      "Rice",
+      "Belmont",
+      "Wright St.",
+      "High Point",
+      "Grand Canyon"
+    ]
+  },
+  "locks": "2019-03-21T16:00:00.000Z",
+  "complete": "2019-04-05T01:00:00.000Z"
+}

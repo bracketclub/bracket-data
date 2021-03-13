@@ -23,7 +23,11 @@ var urls = {
 var url = urls[sport]
 
 var regionMap = {
-  'midwest': 'MW'
+  'midwest': 'MW',
+  'region 1': '1',
+  'region 2': '2',
+  'region 3': '3',
+  'region 4': '4'
 }
 var specialNames = {
   'a&m': 'A&M',
@@ -53,7 +57,13 @@ var specialNames = {
   'ut': 'UT',
   'ipfw': 'IPFW',
   'ualr': 'UALR',
-  'tcu': 'TCU'
+  'tcu': 'TCU',
+  'ucsb': 'UCSB',
+  'uncg': 'UNCG',
+  'uconn': 'UConn',
+  'sfa': 'SFA',
+  'fgcu': 'FGCU',
+  'ucf': 'UCF'
 }
 
 var replaceSpecialNames = function (name) {
@@ -75,12 +85,18 @@ var getElText = function ($, selector) {
   return $(selector).map(function () { return $(this).text() }).get()
 }
 
+var upperFirst = function (str) {
+  return str
+    .split(' ').map((w) => _.upperFirst(w)).join(' ')
+    .split('/').map((w) => _.upperFirst(w)).join('/')
+}
+
 request(url, function (err, resp, body) {
   if (err) throw err
 
   var $ = cheerio.load(body)
 
-  var sortedRegions = _.chunk(getElText($, '.team'), 16)
+  var sortedRegions = _.chunk(getElText($, '.bracket__region .bracket__item'), 16)
     .map(function (region) {
       return _.sortBy(region, getTeamSeed)
         .map(function (team) {
@@ -95,13 +111,13 @@ request(url, function (err, resp, body) {
 
           return team
             .split(' ')
-            .map(_.capitalize)
+            .map(upperFirst)
             .map(replaceSpecialNames)
             .join(' ')
         })
     })
 
-  var regionIds = _.map(getElText($, '.region h3'), function (region) {
+  var regionIds = _.map(getElText($, '.bracket__region h4'), function (region) {
     var regionKey = region.toLowerCase()
 
     if (regionMap[regionKey]) {
