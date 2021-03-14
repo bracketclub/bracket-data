@@ -1,98 +1,98 @@
 {
   "regions": [
     {
-      "id": "A",
-      "name": "A",
-      "fullname": "Region A"
+      "id": "W",
+      "name": "West",
+      "fullname": "West Region"
     },
     {
-      "id": "D",
-      "name": "D",
-      "fullname": "Region D"
+      "id": "E",
+      "name": "East",
+      "fullname": "East Region"
     },
     {
-      "id": "B",
-      "name": "B",
-      "fullname": "Region B"
+      "id": "S",
+      "name": "S",
+      "fullname": "South Region"
     },
     {
-      "id": "C",
-      "name": "C",
-      "fullname": "Region C"
+      "id": "MW",
+      "name": "Midwest",
+      "fullname": "Midwest Region"
     }
   ],
   "teams": {
-    "A": [
+    "W":[
       "Gonzaga",
-      "Ohio State",
-      "Texas",
-      "Purdue",
+      "Iowa",
+      "Kansas",
+      "Virginia",
       "Creighton",
       "USC",
-      "San Diego St.",
-      "Oklahoma",
-      "Florida",
-      "VCU",
-      "Syracuse/Drake",
-      "W. Kentucky",
-      "UCSB",
-      "Grand Canyon",
-      "Drexel",
-      "Mount St. Mary's/Norfolk St."
-    ],
-    "B": [
-      "Baylor",
-      "Iowa",
-      "Arkansas",
-      "Virginia",
-      "Tennessee",
-      "Villanova",
       "Oregon",
-      "UConn",
-      "Rutgers",
-      "Georgia Tech",
-      "Louisville",
-      "Winthrop",
-      "Buffalo",
-      "E. Washington",
-      "Cleveland St.",
-      "Hartford"
-    ],
-    "C": [
-      "Michigan",
-      "Oklahoma St.",
-      "Houston",
-      "Florida St.",
-      "Texas Tech",
-      "Wisconsin",
-      "LSU",
+      "Oklahoma",
       "Missouri",
-      "Virginia Tech",
-      "St. Bonaventure",
-      "UCLA",
-      "Wichita St.",
-      "UNCG",
-      "Morehead St.",
-      "Iona",
-      "Nicholls"
+      "VCU",
+      "Wichita St / Drake",
+      "UCSB",
+      "Ohio",
+      "Eastern Washington",
+      "Grand Canyon",
+      "Norfolk St / Appalachian St"
     ],
-    "D": [
-      "Illinois",
+    "E": [
+      "Michigan",
       "Alabama",
-      "Kansas",
-      "West Virginia",
+      "Texas",
+      "Florida St",
       "Colorado",
       "BYU",
-      "North Carolina",
-      "Loyola Chicago",
-      "Clemson",
+      "UConn",
+      "LSU",
+      "St Bonaventure",
       "Maryland",
-      "Michigan St.",
-      "Utah St./Saint Louis",
-      "Liberty",
+      "Michigan St / UCLA",
+      "Georgetown",
+      "UNC Greensboro",
+      "Abilene Christian",
+      "Iona",
+      "Mount St Mary's / Texas Southern"
+    ],
+    "S": [
+      "Baylor",
+      "Ohio St",
+      "Arkansas",
+      "Purdue",
+      "Villanova",
+      "Texas Tech",
+      "Florida",
+      "North Carolina",
+      "Wisconsin",
+      "Virginia Tech",
+      "Utah St",
+      "Winthrop",
+      "North Texas",
       "Colgate",
       "Oral Roberts",
-      "Prairie View/Appalachian St."
+      "Hartford"
+    ],
+    "MW": [
+      "Illinois",
+      "Houston",
+      "West Virginia",
+      "Oklahoma St",
+      "Tennessee",
+      "San Diego St",
+      "Clemson",
+      "Loyola Chicago",
+      "Georgia Tech",
+      "Rutgers",
+      "Syracuse",
+      "Oregon St",
+      "Liberty",
+      "Morehead St",
+      "Cleveland St",
+      "Drexel"
     ]
   },
   "scoring": {
