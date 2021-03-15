@@ -21,7 +21,11 @@ const parseUrl = (url) => new Promise((resolve, reject) => {
 // Get array of all teams from local bracket data
 const data = getBracket({sport, year})
 const teams = data.constants.REGION_IDS.reduce((acc, id) => {
-  acc.push(...data.bracket.regions[id].teams)
+  const allTeams = data.bracket.regions[id].teams
+    // Split by / for play in games before they've been eliminated
+    .flatMap((t) => t.split('/'))
+    .map(t => t.trim())
+  acc.push(...allTeams)
   return acc
 }, []).sort()
 
