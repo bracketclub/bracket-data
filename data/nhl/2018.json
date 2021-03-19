@@ -1,29 +1,9 @@
 {
   "teams": {
-    "C": [
-      "Nashville",
-      "Winnipeg",
-      "Minnesota",
-      "Colorado"
-    ],
-    "P": [
-      "Vegas",
-      "Anaheim",
-      "San Jose",
-      "Los Angeles"
-    ],
-    "A": [
-      "Tampa Bay",
-      "Boston",
-      "Toronto",
-      "New Jersey"
-    ],
-    "M": [
-      "Washington",
-      "Pittsburgh",
-      "Philadelphia",
-      "Columbus"
-    ]
+    "C": ["Nashville", "Winnipeg", "Minnesota", "Colorado"],
+    "P": ["Vegas", "Anaheim", "San Jose", "Los Angeles"],
+    "A": ["Tampa Bay", "Boston", "Toronto", "New Jersey"],
+    "M": ["Washington", "Pittsburgh", "Philadelphia", "Columbus"]
   },
   "locks": "2018-04-11T23:00:00.000Z",
   "complete": "2018-06-12T07:00:00.000Z"

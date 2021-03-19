@@ -1,29 +1,9 @@
 {
   "teams": {
-    "C": [
-      "Chicago",
-      "Minnesota",
-      "St. Louis",
-      "Nashville"
-    ],
-    "P": [
-      "Anaheim",
-      "Edmonton",
-      "San Jose",
-      "Calgary"
-    ],
-    "A": [
-      "Montreal",
-      "Ottawa",
-      "Boston",
-      "New York (R)"
-    ],
-    "M": [
-      "Washington",
-      "Pittsburgh",
-      "Columbus",
-      "Toronto"
-    ]
+    "C": ["Chicago", "Minnesota", "St. Louis", "Nashville"],
+    "P": ["Anaheim", "Edmonton", "San Jose", "Calgary"],
+    "A": ["Montreal", "Ottawa", "Boston", "New York (R)"],
+    "M": ["Washington", "Pittsburgh", "Columbus", "Toronto"]
   },
   "locks": "2017-04-12T23:00:00.000Z",
   "complete": "2017-06-12T07:00:00.000Z"

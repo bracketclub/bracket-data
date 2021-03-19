@@ -1,5 +1,4 @@
-bracket-data
-============
+# bracket-data
 
 Get some helpful data for a tournament bracket.
 
@@ -9,17 +8,15 @@ Get some helpful data for a tournament bracket.
 
 ## What is a bracket?
 
-From [wikipedia](http://en.wikipedia.org/wiki/Bracket_(tournament)):
+From [wikipedia](<http://en.wikipedia.org/wiki/Bracket_(tournament)>):
 
 > A bracket is a tree diagram that represents the series of games played during a tournament, named as such because it appears to be a large number of interconnected (punctuational) brackets.
 
 But if you're going to use this, you probably already know that :).
 
-
 ## What does this module do?
 
 Let's say you like writing code, and you like brackets, and then one day you want to write some code about brackets. Well, you'll probably need some data first. `bracket-data` aims to have this data for you separated by sport and year, as well as some helpers to make it easier to interact with that data.
-
 
 ## API
 
@@ -29,9 +26,9 @@ In Node, you can require the module as normally would:
 
 ```js
 // Node usage
-var ncaam2013 = require('bracket-data')({
-    year: '2013',
-    sport: 'ncaam'
+var ncaam2013 = require("bracket-data")({
+  year: "2013",
+  sport: "ncaam"
 });
 ```
 
@@ -39,16 +36,16 @@ In a browser, the files are provided prebuilt so that you don't include the whol
 
 ```js
 // For usage in a browser without bundling data for any other sport/year
-var ncaam2013 = require('bracket-data/browser/ncaam-2013');
+var ncaam2013 = require("bracket-data/browser/ncaam-2013");
 ```
 
 If you don't care about including all the data for every sport/year, then you can still require it normally:
 
 ```js
 // Browser usage, although this bundles data for every sport/year
-var ncaam2013 = require('bracket-data')({
-    year: '2013',
-    sport: 'ncaam'
+var ncaam2013 = require("bracket-data")({
+  year: "2013",
+  sport: "ncaam"
 });
 ```
 
@@ -57,11 +54,12 @@ var ncaam2013 = require('bracket-data')({
 This module has a few helper scripts which are used to make certain things easier.
 
 ### `npm run bracketology`
+
 This will take the current year's teams from the ESPN Bracketology website and write them to the current year's JSON files. These usually wont be 100% accurate but will allow you to get some of the current year's data to test and is useful when the teams wont be selected for a few weeks.
 
 ### `npm run names -- ncaam 2018 [URLS]`
-This will check the URLs for a full list of team names and reference them against the list of teams in the provided sport/year combination to make sure no teams are missing.
 
+This will check the URLs for a full list of team names and reference them against the list of teams in the provided sport/year combination to make sure no teams are missing.
 
 ## What data does this module give me?
 
@@ -141,7 +139,7 @@ MW18124637211232121W19121361410291362929S185411371514315434E1912463721432434FFMW
 - `order`: an array with the first round team order. This is useful for display purposes as it is ordered how the teams should be paired from top-to-bottom for each region to start the bracket:
 
 ```js
-[1, 16, 8, 9, 5, 12, 4, 13, 6, 11, 3, 14, 7, 10, 2, 15]
+[1, 16, 8, 9, 5, 12, 4, 13, 6, 11, 3, 14, 7, 10, 2, 15];
 ```
 
 - `scoring`: any data from the json files about how to possibly score a bracket. There is no set format for the scoring data, and due to this fact, scoring data will vary quite a bit from sport to sport and year to year. You could even come up with your own scoring system, PR it, and then write your own module to score each bracket. It could be as simple as
@@ -170,7 +168,6 @@ or even as complex as the [gooley scoring method](http://seattletimes.com/html/l
 
 - `locks`: a date string of when the bracket locks. Locking is when the first game of the bracket has begun and no more picks should be allowed.
 
-
 ## Does this have X sport for Y year?
 
 Probably not, but it's only a pull request away! All the data lives in JSON files under the `./data` dir. To add a sport/year combination:
@@ -193,8 +190,7 @@ And the following properties are **optional**:
 
 These properties are merged recursively (using [`lodash's merge`](http://lodash.com/docs#merge)) with the properties from `defaults.json` being overwritten by the properties from `YYYY.json`. This allows for things that don't change often (such as the `order`) to only be written in one place, whereas things such as `teams` (which change every year) to be located in the appropriate file.
 
-*Also see the above section for further explanation about these properites or go look at a complete example: [defaults.json](https://github.com/bracketclub/bracket-data/blob/master/data/ncaam/defaults.json), [YYYY.json](https://github.com/bracketclub/bracket-data/blob/master/data/ncaam/2013.json).*
-
+_Also see the above section for further explanation about these properites or go look at a complete example: [defaults.json](https://github.com/bracketclub/bracket-data/blob/master/data/ncaam/defaults.json), [YYYY.json](https://github.com/bracketclub/bracket-data/blob/master/data/ncaam/2013.json)._
 
 ## Which sports does it have?
 
@@ -204,7 +200,6 @@ Currently it only has a few, but the next priority will be adding the 2014 data 
 - NCAA Womens Basketball `ncaaw`: `[2016, 2017, 2018]`
 - NHL `nhl`: `[2015, 2016, 2017]`
 - NBA `nba`: `[2015, 2016, 2017]`
-
 
 ## Anything else?
 

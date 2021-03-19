@@ -1,29 +1,9 @@
 {
   "teams": {
-    "C": [
-      "Dallas",
-      "St. Louis",
-      "Chicago",
-      "Minnesota"
-    ],
-    "P": [
-      "Anaheim",
-      "Los Angeles",
-      "San Jose",
-      "Nashville"
-    ],
-    "A": [
-      "Florida",
-      "Tampa Bay",
-      "Detroit",
-      "New York (I)"
-    ],
-    "M": [
-      "Washington",
-      "Pittsburgh",
-      "New York (R)",
-      "Philadelphia"
-    ]
+    "C": ["Dallas", "St. Louis", "Chicago", "Minnesota"],
+    "P": ["Anaheim", "Los Angeles", "San Jose", "Nashville"],
+    "A": ["Florida", "Tampa Bay", "Detroit", "New York (I)"],
+    "M": ["Washington", "Pittsburgh", "New York (R)", "Philadelphia"]
   },
   "locks": "2016-04-13T23:00:00.000Z",
   "complete": "2016-06-13T07:00:00.000Z"
