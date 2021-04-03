@@ -1,10 +1,10 @@
 # bracket-data
 
+__Note: This package is no located in the [bracketclub/bracketclub](https://github.com/bracketclub/bracketclub) monorepo.__
+
 Get some helpful data for a tournament bracket.
 
 [![NPM](https://nodei.co/npm/bracket-data.png)](https://nodei.co/npm/bracket-data/)
-[![Build Status](https://travis-ci.org/bracketclub/bracket-data.png?branch=master)](https://travis-ci.org/bracketclub/bracket-data)
-[![Greenkeeper badge](https://badges.greenkeeper.io/bracketclub/bracket-data.svg)](https://greenkeeper.io/)
 
 ## What is a bracket?
 
