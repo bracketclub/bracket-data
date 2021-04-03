@@ -1,6 +1,6 @@
 # bracket-data
 
-__Note: This package is no located in the [bracketclub/bracketclub](https://github.com/bracketclub/bracketclub) monorepo.__
+_Note: This package is now located in the [bracketclub/bracketclub](https://github.com/bracketclub/bracketclub) monorepo._
 
 Get some helpful data for a tournament bracket.
 
